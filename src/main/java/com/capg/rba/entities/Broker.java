@@ -1,11 +1,11 @@
-package com.capg.rba.model;
+package com.capg.rba.entities;
 
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 
@@ -18,13 +18,13 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(name = "userId")
-public class Customer extends User {
+public class Broker extends User {
 
-	private int custId;
-	private String custName;
+	@Column(unique = true, nullable = false)
+	private int broId;
+	private String broName;
 
-	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
-	@JoinColumn(name = "custId")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
 	private List<Property> properties;
 
 }
