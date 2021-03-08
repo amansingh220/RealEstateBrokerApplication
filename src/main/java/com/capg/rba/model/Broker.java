@@ -3,6 +3,7 @@ package com.capg.rba.model;
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
@@ -19,6 +20,7 @@ import lombok.Setter;
 @PrimaryKeyJoinColumn(name = "userId")
 public class Broker extends User {
 
+	@Column(unique = true, nullable = false)
 	private int broId;
 	private String broName;
 
