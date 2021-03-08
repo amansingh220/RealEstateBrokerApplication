@@ -1,4 +1,4 @@
-package com.capg.rba.controller;
+package com.capg.rba.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ import com.capg.rba.services.ICustomerService;
 @RestController
 @Validated
 @RequestMapping(value = "/rba")
-public class RbaController {
+public class CustomerController {
 
 	@Autowired
 	private ICustomerService customerService;

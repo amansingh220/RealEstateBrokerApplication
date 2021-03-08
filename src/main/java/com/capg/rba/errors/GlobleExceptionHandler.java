@@ -1,4 +1,4 @@
-package com.capg.rba.error;
+package com.capg.rba.errors;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
-import com.capg.rba.exception.CustomerNotFoundException;
-import com.capg.rba.exception.InvalidCustIdException;
+import com.capg.rba.exceptions.CustomerNotFoundException;
+import com.capg.rba.exceptions.InvalidCustIdException;
 
 //GlobleExceptionHandler class defines exception handlers that handles all the exception that is thrown during application execution.
 @RestControllerAdvice

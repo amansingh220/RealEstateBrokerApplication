@@ -6,15 +6,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Customer;
-import com.capg.rba.exception.CustomerNotFoundException;
-import com.capg.rba.exception.InvalidCustIdException;
+import com.capg.rba.exceptions.CustomerNotFoundException;
+import com.capg.rba.exceptions.InvalidCustIdException;
 
 //CustomerRepository class provides definition to the methods declared in ICustomerRepository interface.
 @Repository
 public class CustomerRepository implements ICustomerRepository {
 
 	@Autowired
-	private ICustomRepository customerRepository;
+	private ICustomCustRepository customerRepository;
 
 	// saveCustomer method inserts the customer details in to the respective
 	// database table.

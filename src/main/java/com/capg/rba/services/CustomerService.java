@@ -12,7 +12,7 @@ import com.capg.rba.repositories.ICustomerRepository;
 @Service
 public class CustomerService implements ICustomerService {
 
-	@Autowired(required = true)
+	@Autowired
 	private ICustomerRepository customerRepository;
 
 	//addCustomer method inserts customer details.

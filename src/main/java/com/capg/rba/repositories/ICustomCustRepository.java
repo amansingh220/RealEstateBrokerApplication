@@ -7,7 +7,7 @@ import com.capg.rba.entities.Customer;
 
 //ICustomRepository extends JpaRepository in order to get ready-made methods for performing CRUD operations.
 @Repository
-public interface ICustomRepository extends JpaRepository<Customer, Integer> {
+public interface ICustomCustRepository extends JpaRepository<Customer, Integer> {
 	
 	//This method will fetch customer data based on the custId from database.
 	public Customer findByCustId(int custId);
