@@ -4,7 +4,6 @@ plugins {
 	id 'java'
 	id 'war'
 }
-
 group = 'com.cg.go'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
@@ -24,12 +23,24 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.session:spring-session-core'
+	
 	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
 	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
 	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
 	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
 	// https://mvnrepository.com/artifact/io.swagger/swagger-annotations
 	implementation group: 'io.swagger', name: 'swagger-annotations', version: '1.5.22'
+	// https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core
+	implementation group: 'org.jenkins-ci.main', name: 'jenkins-core', version: '2.85'
+	// https://mvnrepository.com/artifact/org.jenkins-ci.plugins/git
+	implementation group: 'org.jenkins-ci.plugins', name: 'git', version: '3.6.0'
+	// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+	implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
+	// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+	implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.1'
+	// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-web
+	implementation group: 'org.apache.logging.log4j', name: 'log4j-web', version: '2.12.1'
+
  	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
 	compileOnly 'org.projectlombok:lombok'
@@ -39,6 +50,7 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+
 
 test {
 	useJUnitPlatform()
