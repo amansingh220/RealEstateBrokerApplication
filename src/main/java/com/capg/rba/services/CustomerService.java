@@ -4,8 +4,6 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.appender.FileAppender;
-import org.apache.logging.log4j.core.layout.PatternLayout;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +14,7 @@ import com.capg.rba.repositories.ICustomerRepository;
 @Service
 public class CustomerService implements ICustomerService {
 
-	private final static Logger LOGGER=LogManager.getLogger(CustomerService.class.getName());
+//	private final Logger LOGGER=LogManager.getLogger(CustomerService.class.getName());
 	
 	@Autowired
 	private ICustomerRepository customerRepository;
@@ -45,9 +43,7 @@ public class CustomerService implements ICustomerService {
 	//viewCustomer method views a customer details based on the custId.
 	@Override
 	public Customer viewCustomer(int custId) {
-		LOGGER.info("Info level log message");
-        LOGGER.debug("Debug level log message");
-        LOGGER.error("Error level log message");
+		LOGGER.info("view");
 		Customer customerDeatils = customerRepository.fetchCustomer(custId);
 		return customerDeatils;
 	}
