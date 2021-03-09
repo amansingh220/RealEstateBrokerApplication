@@ -3,10 +3,12 @@ package com.capg.rba.dao;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import com.capg.rba.exception.BrokerNotFoundException;
 import com.capg.rba.model.Broker;
 
+@Repository
 public class BrokerRepository implements IBrokerRepository{
 
 	@Autowired

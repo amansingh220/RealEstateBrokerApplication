@@ -35,7 +35,6 @@ public class Broker extends User {
 
 	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position=3)
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
-	@JoinColumn(name ="broId")
 	private List<Property> properties;
 
 }
