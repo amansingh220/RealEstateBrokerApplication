@@ -14,7 +14,7 @@ import com.capg.rba.repositories.ICustomerRepository;
 @Service
 public class CustomerService implements ICustomerService {
 
-//	private final Logger LOGGER=LogManager.getLogger(CustomerService.class.getName());
+	private final Logger LOGGER=LogManager.getLogger(CustomerService.class.getName());
 	
 	@Autowired
 	private ICustomerRepository customerRepository;
@@ -43,6 +43,7 @@ public class CustomerService implements ICustomerService {
 	//viewCustomer method views a customer details based on the custId.
 	@Override
 	public Customer viewCustomer(int custId) {
+		LOGGER.info("aman");
 		Customer customerDeatils = customerRepository.fetchCustomer(custId);
 		return customerDeatils;
 	}
