@@ -43,7 +43,6 @@ public class CustomerService implements ICustomerService {
 	//viewCustomer method views a customer details based on the custId.
 	@Override
 	public Customer viewCustomer(int custId) {
-		LOGGER.info("view");
 		Customer customerDeatils = customerRepository.fetchCustomer(custId);
 		return customerDeatils;
 	}
