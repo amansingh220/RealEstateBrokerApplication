@@ -18,6 +18,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+//POJO class of deal module
 public class Deal {
 
 	@Id

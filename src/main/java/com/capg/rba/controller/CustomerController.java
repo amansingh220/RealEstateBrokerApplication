@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.capg.rba.generator.IdGeneration;
 import com.capg.rba.model.Customer;
-import com.capg.rba.service.ICustomerService;
+import com.capg.rba.services.ICustomerService;
 
 @RestController
 @RequestMapping(value = "/rba")
-public class RbaController {
+public class CustomerController {
 
 	@Autowired
 	ICustomerService service;

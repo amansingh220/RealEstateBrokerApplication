@@ -44,6 +44,9 @@ public class Property {
 		this.street = street;
 		this.city = city;
 		this.status = status;
+		
 	}
+	
+	
 
 }

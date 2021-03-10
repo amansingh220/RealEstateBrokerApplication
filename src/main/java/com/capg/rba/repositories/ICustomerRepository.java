@@ -1,6 +1,7 @@
-package com.capg.rba.dao;
+package com.capg.rba.repositories;
 
 import java.util.List;
+
 
 import org.springframework.stereotype.Repository;
 

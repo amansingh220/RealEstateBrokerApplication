@@ -1,4 +1,4 @@
-package com.capg.rba.dao;
+package com.capg.rba.repositories;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,7 @@ import com.capg.rba.model.Customer;
 public class CustomerRepository implements ICustomerRepository {
 
 	@Autowired
-	ICustomRepository repository;
+	ICustomCustRepository repository;
 
 	@Override
 	public Customer saveCustomer(Customer customer) {

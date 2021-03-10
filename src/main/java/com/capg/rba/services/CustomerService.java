@@ -1,12 +1,12 @@
-package com.capg.rba.service;
+package com.capg.rba.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.capg.rba.dao.ICustomerRepository;
 import com.capg.rba.model.Customer;
+import com.capg.rba.repositories.ICustomerRepository;
 
 @Service
 public class CustomerService implements ICustomerService {
