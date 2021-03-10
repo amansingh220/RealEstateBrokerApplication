@@ -38,7 +38,7 @@ public class CustomerController {
 		customer.setRole("Customer");
 		Customer customer1 = customerService.addCustomer(customer);
 		if (customer1 != null) {
-			return new ResponseEntity<String>("Registration successful", HttpStatus.CREATED);
+			return new ResponseEntity<String>("Registration successful, "+customer1.toString(), HttpStatus.CREATED);
 		} else {
 			return new ResponseEntity<String>("Registration failed", HttpStatus.CREATED);
 		}
@@ -50,7 +50,7 @@ public class CustomerController {
 		customer.setCustId(custId);
 		Customer customer1 = customerService.editCustomer(customer);
 		if (customer1 != null) {
-			return new ResponseEntity<String>("Deatils updated successfully", HttpStatus.CREATED);
+			return new ResponseEntity<String>("Deatils updated successfully, Updated details are present below"+customer1.toString("msg"), HttpStatus.CREATED);
 		} else {
 			return new ResponseEntity<String>("Updation failed", HttpStatus.CREATED);
 		}
@@ -60,16 +60,16 @@ public class CustomerController {
 	public ResponseEntity<String> removeCustomer(@PathVariable int custId) {
 		Customer customer1 = customerService.removeCustomer(custId);
 		if (customer1 != null) {
-			return new ResponseEntity<String>("Customer details successfully", HttpStatus.CREATED);
+			return new ResponseEntity<String>("Customer details deleted successfully having details"+customer1.toString("msg"), HttpStatus.CREATED);
 		} else {
 			return new ResponseEntity<String>("Deletion failed", HttpStatus.CREATED);
 		}
 	}
 
 	@GetMapping(value = "/viewcustomer/{custId}")
-	public ResponseEntity<Customer> viewCustomer(@PathVariable int custId) {
+	public ResponseEntity<String> viewCustomer(@PathVariable int custId) {
 		Customer customer = customerService.viewCustomer(custId);
-		return new ResponseEntity<Customer>(customer, HttpStatus.OK);
+		return new ResponseEntity<String>("Details of customer"+customer.toString("msg"), HttpStatus.OK);
 
 	}
 
