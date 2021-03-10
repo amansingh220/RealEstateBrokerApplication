@@ -27,6 +27,7 @@ public class CustomerServiceTests {
 	private CustomerRepository customerRepository;
 	
 	//Test method to test functionality of addCustomer Method.
+	
 	@Test
 	public void TestAddcustomer() {
 		Customer customer = new Customer();
@@ -35,8 +36,8 @@ public class CustomerServiceTests {
 		customer.setCustName("Aman Singh");
 		customer.setCity("Lucknow");
 		customer.setEmail("aman.singh@gmail.com");
-		customer.setMobile("9760694337");
-		customer.setPassword("9856@#452");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
 		customer.setProperties(new ArrayList<Property>());
 		customer.setRole("Customer");
 
