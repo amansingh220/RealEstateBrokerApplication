@@ -64,13 +64,6 @@ public class GlobalExceptionHandler {
 		 * return responseEntity; }
 		 */
 		
-		// Handles MethodArgumentTypeMismatchException that is thrown when we pass
-		// invalid broId while viewing or deleting the broker.
-		@ExceptionHandler(MethodArgumentTypeMismatchException.class)
-		private ResponseEntity<String> handleBrokerNotFoundException(MethodArgumentTypeMismatchException exception) {
-			ResponseEntity<String> responseEntity = new ResponseEntity<String>("Invalid ID", HttpStatus.BAD_REQUEST);
-			return responseEntity;
-		}
 		
 		// Handles user-defined exception that is thrown when we try to delete or view
 		// the customer by passing an broId that does not exist in database table.
