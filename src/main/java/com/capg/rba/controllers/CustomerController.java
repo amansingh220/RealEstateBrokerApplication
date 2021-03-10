@@ -1,4 +1,4 @@
-package com.capg.rba.controller;
+package com.capg.rba.controllers;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.capg.rba.entities.Customer;
 import com.capg.rba.generator.IdGeneration;
-import com.capg.rba.model.Customer;
 import com.capg.rba.services.ICustomerService;
 
 @RestController

@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.capg.rba.model.Customer;
+import com.capg.rba.entities.Customer;
 
 @Service
 public interface ICustomerService {

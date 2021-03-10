@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.capg.rba.model.Customer;
+import com.capg.rba.entities.Customer;
 
 @Repository
 public interface ICustomCustRepository extends JpaRepository<Customer, Integer> {

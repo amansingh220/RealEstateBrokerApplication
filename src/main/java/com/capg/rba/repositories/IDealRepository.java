@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.capg.rba.model.Customer;
-import com.capg.rba.model.Deal;
-import com.capg.rba.model.Property;
+import com.capg.rba.entities.Customer;
+import com.capg.rba.entities.Deal;
+import com.capg.rba.entities.Property;
 
 //IDealRepository hold the declaration of repository method
 @Repository

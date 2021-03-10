@@ -16,11 +16,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.capg.rba.entities.Customer;
+import com.capg.rba.entities.Deal;
+import com.capg.rba.entities.Property;
 import com.capg.rba.exception.DealsNotFoundException;
 import com.capg.rba.exception.PropertyAlreadySoldException;
-import com.capg.rba.model.Customer;
-import com.capg.rba.model.Deal;
-import com.capg.rba.model.Property;
 import com.capg.rba.repositories.DealRepository;
 //Test class to test deal service layer 
 @SpringBootTest

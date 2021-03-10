@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.capg.rba.model.Customer;
+import com.capg.rba.entities.Customer;
 
 @Repository
 public interface ICustomerRepository {

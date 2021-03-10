@@ -1,4 +1,4 @@
-package com.capg.rba.error;
+package com.capg.rba.errors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

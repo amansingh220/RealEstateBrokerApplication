@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.capg.rba.model.Customer;
-import com.capg.rba.model.Deal;
-import com.capg.rba.model.Property;
+import com.capg.rba.entities.Customer;
+import com.capg.rba.entities.Deal;
+import com.capg.rba.entities.Property;
 import com.capg.rba.repositories.IDealRepository;
 
 //DealService class provides method definition declared in IDealService interface
