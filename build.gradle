@@ -4,6 +4,7 @@ plugins {
 	id 'java'
 	id 'war'
 }
+apply plugin: "eclipse"
 
 group = 'com.cg.go'
 version = '0.0.1-SNAPSHOT'
