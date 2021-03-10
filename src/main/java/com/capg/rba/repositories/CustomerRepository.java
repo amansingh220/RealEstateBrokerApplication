@@ -2,6 +2,8 @@ package com.capg.rba.repositories;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -11,6 +13,7 @@ import com.capg.rba.exceptions.InvalidCustIdException;
 
 //CustomerRepository class provides definition to the methods declared in ICustomerRepository interface.
 @Repository
+@Transactional
 public class CustomerRepository implements ICustomerRepository {
 
 	@Autowired

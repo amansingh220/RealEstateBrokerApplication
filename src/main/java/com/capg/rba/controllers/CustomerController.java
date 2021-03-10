@@ -31,33 +31,45 @@ public class CustomerController {
 	private ICustomerService customerService;
 
 	@PostMapping(value = "/addcustomer")
-	public ResponseEntity<Customer> addCustomer(@RequestBody Customer customer) {
+	public ResponseEntity<String> addCustomer(@RequestBody Customer customer) {
 		List<Property> properties = new ArrayList<Property>();
 		customer.setCustId(IdGeneration.generateId());
 		customer.setProperties(properties);
 		customer.setRole("Customer");
 		Customer customer1 = customerService.addCustomer(customer);
-		return new ResponseEntity<Customer>(customer1, HttpStatus.CREATED);
+		if (customer1 != null) {
+			return new ResponseEntity<String>("Registration successful, "+customer1.toString(), HttpStatus.CREATED);
+		} else {
+			return new ResponseEntity<String>("Registration failed", HttpStatus.CREATED);
+		}
 	}
 
 	@PutMapping(value = "/editcustomer/{custId}")
-	public ResponseEntity<Customer> editCustomer(@RequestBody Customer customer, @PathVariable int custId) {
+	public ResponseEntity<String> editCustomer(@RequestBody Customer customer, @PathVariable int custId) {
 		customer.setRole("Customer");
 		customer.setCustId(custId);
 		Customer customer1 = customerService.editCustomer(customer);
-		return new ResponseEntity<Customer>(customer1, HttpStatus.ACCEPTED);
+		if (customer1 != null) {
+			return new ResponseEntity<String>("Deatils updated successfully, Updated details are present below"+customer1.toString("msg"), HttpStatus.CREATED);
+		} else {
+			return new ResponseEntity<String>("Updation failed", HttpStatus.CREATED);
+		}
 	}
 
 	@DeleteMapping(value = "/removecustomer/{custId}")
-	public ResponseEntity<Customer> removeCustomer(@PathVariable int custId) {
+	public ResponseEntity<String> removeCustomer(@PathVariable int custId) {
 		Customer customer1 = customerService.removeCustomer(custId);
-		return new ResponseEntity<Customer>(customer1, HttpStatus.ACCEPTED);
+		if (customer1 != null) {
+			return new ResponseEntity<String>("Customer details deleted successfully having details"+customer1.toString("msg"), HttpStatus.CREATED);
+		} else {
+			return new ResponseEntity<String>("Deletion failed", HttpStatus.CREATED);
+		}
 	}
 
 	@GetMapping(value = "/viewcustomer/{custId}")
-	public ResponseEntity<Customer> viewCustomer(@PathVariable int custId) {
+	public ResponseEntity<String> viewCustomer(@PathVariable int custId) {
 		Customer customer = customerService.viewCustomer(custId);
-		return new ResponseEntity<Customer>(customer, HttpStatus.OK);
+		return new ResponseEntity<String>("Details of customer"+customer.toString("msg"), HttpStatus.OK);
 
 	}
 
