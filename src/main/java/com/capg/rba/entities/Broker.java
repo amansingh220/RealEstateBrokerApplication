@@ -26,5 +26,5 @@ public class Broker extends User {
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
 	private List<Property> properties;
-
+	
 }
