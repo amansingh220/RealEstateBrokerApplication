@@ -1,4 +1,4 @@
-package com.capg.rba.exception;
+package com.capg.rba.exceptions;
 
 @SuppressWarnings("serial")
 public class CustomerNotFoundException extends RuntimeException {

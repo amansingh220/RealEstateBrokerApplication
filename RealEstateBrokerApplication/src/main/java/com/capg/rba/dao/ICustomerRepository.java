@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.capg.rba.model.Customer;
 
+//IBrokerRepository is defined to hold the declarations of repository methods.
 @Repository
 public interface ICustomerRepository {
 

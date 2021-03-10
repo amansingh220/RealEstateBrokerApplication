@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.capg.rba.exception.CustomerNotFoundException;
+import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.model.Customer;
 
 @Repository

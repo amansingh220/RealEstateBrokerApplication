@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.capg.rba.exception.CustomerNotFoundException;
+import com.capg.rba.exceptions.CustomerNotFoundException;
 
 @RestControllerAdvice
 public class GlobleExceptionHandler {
