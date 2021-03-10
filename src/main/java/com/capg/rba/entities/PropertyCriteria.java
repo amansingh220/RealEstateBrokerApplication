@@ -1,4 +1,4 @@
-package com.capg.rba.model;
+package com.capg.rba.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -9,14 +9,16 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+//Configuration class for spring-fox swagger2.
 @EnableSwagger2
 @Configuration
 public class SwaggerConfiguration {
 
+	//apiDocket method Generates document for application's APIs. 
 	@Bean
 	public Docket apiDocket() {
 
-		Docket docket = new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any())
+		Docket docket = new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("com.capg.rba"))
 				.paths(PathSelectors.any()).build();
 		return docket;
 	}

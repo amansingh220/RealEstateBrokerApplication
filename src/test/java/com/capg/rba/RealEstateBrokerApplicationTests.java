@@ -1,4 +1,4 @@
-package com.cg.go;
+package com.capg.rba;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,6 +8,6 @@ class RealEstateBrokerApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
-
 }

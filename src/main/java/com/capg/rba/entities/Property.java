@@ -1,4 +1,4 @@
-package com.capg.rba.model;
+package com.capg.rba.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -16,7 +16,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Property {
-
+	
 	@Id
 	@GeneratedValue
 	private int propId;
