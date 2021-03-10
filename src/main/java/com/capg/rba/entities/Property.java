@@ -16,7 +16,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Property {
-
+	
 	@Id
 	@GeneratedValue
 	private int propId;
