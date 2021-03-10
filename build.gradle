@@ -8,18 +8,12 @@ group = 'com.cg.go'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
-configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
-}
-configurations {
-    all {
-        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
-    }
-}
 repositories {
 	mavenCentral()
+}
+
+configurations.all {
+   exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
 }
 
 dependencies {
@@ -36,8 +30,16 @@ dependencies {
 	implementation group: 'io.swagger', name: 'swagger-annotations', version: '1.5.22'
 	// https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core
 	implementation group: 'org.jenkins-ci.main', name: 'jenkins-core', version: '2.85'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-logging
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-logging', version: '2.3.4.RELEASE'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j2
-	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-log4j2', version: '2.3.7.RELEASE'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-log4j2', version: '2.3.4.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '2.2.6.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-freemarker
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-freemarker', version: '2.2.6.RELEASE'
+	
+	
 	
 
  	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
@@ -49,7 +51,6 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
 
 test {
 	useJUnitPlatform()
