@@ -19,7 +19,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.capg.rba.entities.Customer;
 import com.capg.rba.entities.Property;
-import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.services.CustomerService;
 
 @SpringBootTest
@@ -39,56 +38,6 @@ public class CustomerControllerTests {
 		mockMvc = standaloneSetup(controller).build();
 
 	}
-
-	// @Test
-	// public void testAddcustomer() throws Exception {
-	// Customer customer = new Customer();
-	// customer.setCustId(1);
-	// customer.setUserId(2245);
-	// customer.setCustName("Aman Singh");
-	// customer.setCity("Lucknow");
-	// customer.setEmail("aman.singh@gmail.com");
-	// customer.setMobile("8460694337");
-	// customer.setPassword("abcd9856@#452");
-	// customer.setProperties(new ArrayList<Property>());
-	// customer.setRole("Customer");
-	//
-	// Customer customer1 = new CustomerBuilder().setCustId(101).setUserId(2245);
-	//
-	//
-	// customer1.setCity("Lucknow");
-	// customer1.setEmail("amasingh@gmail.com");
-	// customer1.setMobile("8460694337");
-	// customer1.setPassword("abcd9po856@#452");
-	// customer1.setProperties(new ArrayList<Property>());
-	// customer1.setRole("Customer");
-	// customer1.b
-	//
-	// when(calculateArea.addCustomer((any(Customer.class).getClass()).thenReturn();
-	//
-	// mockMvc.perform(post("/rba/addcustomer")
-	// .contentType(TestUtil.APPLICATION_JSON_UTF8)
-	// .content(TestUtil.convertObjectToJsonBytes(customer)));
-	// }
-	//
-	// @Test
-	// public void testEditCustomer() throws Exception {
-	// Customer customer = new Customer();
-	// customer.setCustId(1);
-	// customer.setUserId(2245);
-	// customer.setCustName("Aman Singh");
-	// customer.setCity("Lucknow");
-	// customer.setEmail("aman.singh@gmail.com");
-	// customer.setMobile("8460694337");
-	// customer.setPassword("abcd9856@#452");
-	// customer.setProperties(new ArrayList<Property>());
-	// customer.setRole("Customer");
-	//
-	// when(calculateArea.editCustomer(customer)).thenReturn(customer);
-	// mockMvc.perform(put("/rba/editcustomer/{custId}",
-	// 1)).andExpect(status().isOk());
-	//
-	// }
 
 	@Test
 	public void testRemoveCustomer() throws Exception {
