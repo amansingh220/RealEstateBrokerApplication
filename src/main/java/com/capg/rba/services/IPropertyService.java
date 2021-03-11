@@ -13,6 +13,6 @@ public interface IPropertyService {
 	public Property editProperty(Property property);
 	public Property removeProperty(int propId);
 	public Property viewProperty(int propId);
-	public List<Property> listAllProperty();
+	public List<Property> listAllProperties();
     public List<Property> listPropertyByCriteria(PropertyCriteria criteria);
 }

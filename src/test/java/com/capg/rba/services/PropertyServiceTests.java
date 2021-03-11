@@ -92,6 +92,7 @@ public class PropertyServiceTests {
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
 		property.setBroker(broker);
 
+		
 		Mockito.when(propertyRepository.deleteProperty(propId)).thenReturn(property);
 		Property property2 = propertyService.removeProperty(propId);
 		Assertions.assertEquals(property, property2);

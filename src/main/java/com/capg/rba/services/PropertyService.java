@@ -16,21 +16,21 @@ import com.capg.rba.repositories.IPropertyPropRepository;
 		@Autowired
 		private IPropertyPropRepository propertyRepository;
 
-		//addCustomer method inserts customer details.
+		//addProperty method inserts property details.
 		@Override
 		public Property addProperty(Property property) {
 			Property propertyDetails = propertyRepository.save(property);
 			return propertyDetails;
 		}
 
-		//editCustomer method updates a customer details.
+		//editProperty method updates a property details.
 		@Override
 		public Property editProperty(Property property) {
 			Property propertyDetails = propertyRepository.save(property);
 			return propertyDetails;
 		}
 
-		//removeCustomer method removes a customer details based on the custId.
+		//removeProperty method removes a property details based on the propId.
 		@Override
 		public Property removeProperty(int propId) {
 			Optional<Property> propertyDetails = propertyRepository.findById(propId);
@@ -38,26 +38,26 @@ import com.capg.rba.repositories.IPropertyPropRepository;
 			return propertyDetails.get();
 		}
 
-		//viewCustomer method views a customer details based on the custId.
+		//viewProperty method views a property details based on the propId.
 		@Override
 		public Property viewProperty(int propId) {
 			Optional<Property> propertyDetails = propertyRepository.findById(propId);
 			return propertyDetails.get();
 		}
 
-		//listAllCustomers method list out  all customers.
+		//listAllProperties method list out  all properties.
 		@Override
-		public List<Property> listAllProperty() {
+		public List<Property> listAllProperties() {
 			List<Property> properties = propertyRepository.findAll();
 			return properties;
 		}
 		
-		//
-		@Override
-		public List<Property> listPropertyByCriteria(PropertyCriteria criteria) {
-			List<Property> properties = propertyRepository.findByCriteria(criteria);
-			return properties;
-		}
+		//listPropertyByCriteria method list all properties by criteria.
+		//@Override
+		//public List<Property> listPropertyByCriteria(PropertyCriteria criteria) {
+			//List<Property> properties = propertyRepository.findByCriteria(criteria);
+			//return properties;
+		//}
 		
 		
 		

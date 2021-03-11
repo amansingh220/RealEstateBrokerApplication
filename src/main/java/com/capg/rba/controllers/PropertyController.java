@@ -32,7 +32,7 @@ public class PropertyController {
 
 	@PostMapping(value = "/addproperty")
 	public ResponseEntity<Property> addProperty(@RequestBody Property property) {
-	
+	    property.setPropId(IdGeneration.generateId()); 
 		
 		
 		Property property1 = propertyService.addProperty(property);
