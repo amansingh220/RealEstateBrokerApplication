@@ -52,7 +52,7 @@ public class GlobleExceptionHandler {
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
-	
+
 	// Handles user-defined exception that is thrown when we try to update
 	// the customer by passing an custId that does not exist in database table.
 	@ExceptionHandler(InvalidCustIdException.class)
