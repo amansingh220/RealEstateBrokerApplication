@@ -1,7 +1,5 @@
 package com.capg.rba.services;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
 import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
@@ -10,12 +8,10 @@ import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import com.capg.rba.dao.BrokerRepository;
 import com.capg.rba.exceptions.BrokerNotFoundException;
@@ -26,7 +22,6 @@ import com.capg.rba.service.BrokerService;
 
 //Service layer test class
 @SpringBootTest
-@RunWith(SpringRunner.class)
 public class BrokerServiceTests {
 
 	@Autowired
@@ -35,89 +30,13 @@ public class BrokerServiceTests {
 	@MockBean
 	private BrokerRepository brokerRepository;
 	
-	
-	@Test
-	public void TestAddBroker()
-	{
-		Broker broker1 = new Broker();
-		broker1.setBroId(985);
-		broker1.setUserId(1234);
-		broker1.setBroName("Amit Kumar");
-		broker1.setCity("Mathura");
-		broker1.setEmail("amit_Kumar@gmail.com");
-		broker1.setMobile("9555752321");
-		broker1.setPassword("2256@#236");
-		broker1.setProperties(new ArrayList<Property>());
-		broker1.setRole("Broker");
-		
-		when(brokerRepository.saveBroker(broker1)).thenReturn(broker1);
-		Broker broker2 = brokerService.addBroker(broker1); 	
-		assertEquals(broker1,broker2);
-	}
+	private Broker broker1;
+	private Broker broker2;
+	private Broker broker3;
 	
 	
-	@Test
-	public void TestEditBroker()
-	{
-		Broker broker1 = new Broker();
-		broker1.setBroId(985);
-		broker1.setUserId(1234);
-		broker1.setBroName("Amit Kumar");
-		broker1.setCity("Mathura");
-		broker1.setEmail("amit_Kumar@gmail.com");
-		broker1.setMobile("9555752321");
-		broker1.setPassword("2256@#236");
-		broker1.setProperties(new ArrayList<Property>());
-		broker1.setRole("Broker");
-		
-		when(brokerRepository.updateBroker(broker1)).thenReturn(broker1);
-		Broker broker2 = brokerService.editBroker(broker1); 	
-		assertEquals(broker1,broker2);
-	}
-	
-	
-	@Test
-	public void TestRemoveBroker()
-	{
-		int broId=985;
-		Broker broker1 = new Broker();
-		broker1.setBroId(985);
-		broker1.setUserId(1234);
-		broker1.setBroName("Amit Kumar");
-		broker1.setCity("Mathura");
-		broker1.setEmail("amit_Kumar@gmail.com");
-		broker1.setMobile("9555752321");
-		broker1.setPassword("2256@#236");
-		broker1.setProperties(new ArrayList<Property>());
-		broker1.setRole("Broker");
-		
-		when(brokerRepository.deleteBroker(broId)).thenReturn(broker1);
-		Broker broker2 = brokerService.removeBroker(broId); 	
-		assertEquals(broker1,broker2);
-	}
-	
-	@Test
-	public void TestViewBroker()
-	{
-		int broId=985;
-		Broker broker1 = new Broker();
-		broker1.setBroId(985);
-		broker1.setUserId(1234);
-		broker1.setBroName("Amit Kumar");
-		broker1.setCity("Mathura");
-		broker1.setEmail("amit_Kumar@gmail.com");
-		broker1.setMobile("9555752321");
-		broker1.setPassword("2256@#236");
-		broker1.setProperties(new ArrayList<Property>());
-		broker1.setRole("Broker");
-		
-		when(brokerRepository.fetchBroker(broId)).thenReturn(broker1);
-		Broker broker2 = brokerService.viewBroker(broId); 	
-		assertEquals(broker1,broker2);
-	}
-	
-	@Test
-	public void TestListAllBroker()
+	@BeforeEach
+	public void init()
 	{
 		Broker broker1 = new Broker();
 		broker1.setBroId(985);
@@ -152,6 +71,50 @@ public class BrokerServiceTests {
 		broker3.setProperties(new ArrayList<Property>());
 		broker3.setRole("Broker");
 		
+	}
+	@Test
+	public void TestAddBroker()
+	{
+		
+		when(brokerRepository.saveBroker(broker1)).thenReturn(broker1);
+		Broker broker2 = brokerService.addBroker(broker1); 	
+		Assertions.assertEquals(broker1,broker2);
+	}
+	
+	//Test method 
+	@Test
+	public void TestEditBroker()
+	{
+
+		when(brokerRepository.updateBroker(broker1)).thenReturn(broker1);
+		Broker broker = brokerService.editBroker(broker1); 	
+		Assertions.assertEquals(broker1,broker);
+	}
+	
+	
+	@Test
+	public void TestRemoveBroker()
+	{
+		int broId=985;
+		when(brokerRepository.deleteBroker(broId)).thenReturn(broker1);
+		Broker broker = brokerService.removeBroker(broId); 	
+		Assertions.assertEquals(broker1,broker);
+	}
+	
+	@Test
+	public void TestViewBroker()
+	{
+		int broId=985;
+		
+		when(brokerRepository.fetchBroker(broId)).thenReturn(broker1);
+		Broker broker = brokerService.viewBroker(broId); 	
+		Assertions.assertEquals(broker1,broker);
+	}
+	
+	@Test
+	public void TestListAllBroker()
+	{
+		
 		List<Broker> allBrokers = new ArrayList<Broker>(); 
 		allBrokers.add(broker1);
 		allBrokers.add(broker2);
@@ -167,19 +130,8 @@ public class BrokerServiceTests {
 	public void TestEditBrokerInvalidBrokerException()
 	{
 	
-		Broker broker1 = new Broker();
-		broker1.setBroId(985);
-		broker1.setUserId(1234);
-		broker1.setBroName("Amit Kumar");
-		broker1.setCity("Mathura");
-		broker1.setEmail("amit_Kumar@gmail.com");
-		broker1.setMobile("9555752321");
-		broker1.setPassword("2256@#236");
-		broker1.setProperties(new ArrayList<Property>());
-		broker1.setRole("Broker");
-		
 		when(brokerRepository.updateBroker(broker1)).thenThrow(new InvalidBroIdException()); 	
-		assertThrows(InvalidBroIdException.class, () -> brokerService.editBroker(broker1));
+		Assertions.assertThrows(InvalidBroIdException.class, () -> brokerService.editBroker(broker1));
 	}
 
 	@Test
@@ -187,18 +139,8 @@ public class BrokerServiceTests {
 	{
 	
 		int broId = 985;
-		Broker broker1 = new Broker();
-		broker1.setBroId(985);
-		broker1.setUserId(1234);
-		broker1.setBroName("Amit Kumar");
-		broker1.setCity("Mathura");
-		broker1.setEmail("amit_Kumar@gmail.com");
-		broker1.setMobile("9555752321");
-		broker1.setPassword("2256@#236");
-		broker1.setProperties(new ArrayList<Property>());
-		broker1.setRole("Broker");
 		
 		when(brokerRepository.fetchBroker(broId)).thenThrow(new BrokerNotFoundException()); 	
-		assertThrows(BrokerNotFoundException.class, () -> brokerService.viewBroker(broId));
+		Assertions.assertThrows(BrokerNotFoundException.class, () -> brokerService.viewBroker(broId));
 	}
 }

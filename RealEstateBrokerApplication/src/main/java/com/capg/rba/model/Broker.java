@@ -34,7 +34,24 @@ public class Broker extends User {
 	private String broName;
 
 	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position=3)
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)	
 	private List<Property> properties;
-
+	
+	@Override
+	public String toString() {
+		String message = "\nYour login credentials are as follows : \n" + "\n" + "	userId   : "
+				+ getUserId() + "\n" + "	password : " + getPassword() + "\n" + "\n\n"
+				+ "The other Broker details are  : \n" + "\n" + "	custId    : " + getBroId() + "\n" + "	custName  : "
+				+ getBroName() + "\n" + "	role      : " + getRole() + "\n" + "	mobile    : " + getMobile() + "\n"
+				+ "	email     : " + getEmail() + "\n" + "	city      : " + getCity() +"\n"+"	properties: "+getProperties()+"\n";
+		return message;
+	}
+	
+	public String toString(String deleteOrUpdatemsgs) {
+		String message = " \n" + "\n" + "	userId : "
+				+ getUserId() + "\n" + "	password : " + getPassword() + "\n" + "	custId : " + getBroId() + "\n" + "	custName : "
+				+ getBroName() + "\n" + "	role : " + getRole() + "\n" + "	mobile : " + getMobile() + "\n"
+				+ "	email : " + getEmail() + "\n" + "	city : " + getCity() +"\n"+"	properties : "+getProperties()+"\n";
+		return message;
+	}
 }

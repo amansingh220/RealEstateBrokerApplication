@@ -1,7 +1,10 @@
 package com.capg.rba.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,45 +17,68 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.capg.rba.dao.CustomerRepository;
 import com.capg.rba.generator.IdGeneration;
 import com.capg.rba.model.Broker;
+import com.capg.rba.model.Property;
 import com.capg.rba.service.IBrokerService;
 
+//Controller class for RESTful web services
 @RestController
 @RequestMapping(value = "/rba")
 public class RbaBrokerController {
+
+	// Logger Initialization
+	private final Logger log = LogManager.getLogger(CustomerRepository.class.getName());
 
 	@Autowired
 	IBrokerService bService;
 
 	@PostMapping(value = "/addbroker")
-	public ResponseEntity<Broker> addBroker(@RequestBody Broker broker) {
+	public ResponseEntity<String> addBroker(@RequestBody Broker broker) {
+		log.info("Controller Triggered");
 		broker.setBroId(IdGeneration.generateId());
+		List<Property> properties = new ArrayList<Property>();
+		broker.setProperties(properties);
+		broker.setRole("Broker");
 		Broker broker1 = bService.addBroker(broker);
-		return new ResponseEntity<Broker>(broker1, HttpStatus.CREATED);
+		return new ResponseEntity<String>("Registaration as Broker successful " + broker1.toString(),
+				HttpStatus.CREATED);
 	}
 
-	@PutMapping(value = "/editbroker")
-	public ResponseEntity<Broker> editBroker(@RequestBody Broker broker) {
+	@PutMapping(value = "/editbroker/{broId}")
+	public ResponseEntity<String> editBroker(@RequestBody Broker broker, @PathVariable int broId) {
+		log.info("Controller Triggered");
+		broker.setBroId(broId);
+		broker.setRole("Broker");
 		Broker broker1 = bService.editBroker(broker);
-		return new ResponseEntity<Broker>(broker1, HttpStatus.ACCEPTED);
+		log.info("broker details updated successfully");
+		return new ResponseEntity<String>("The details of broker updated successfully :: " + broker1.toString(""),
+				HttpStatus.CREATED);
+
 	}
 
 	@DeleteMapping(value = "/removebroker/{broId}")
-	public ResponseEntity<Broker> removeBroker(@PathVariable int broId) {
+	public ResponseEntity<String> removeBroker(@PathVariable int broId) {
+		log.info("Controller Triggered");
 		Broker broker1 = bService.removeBroker(broId);
-		return new ResponseEntity<Broker>(broker1, HttpStatus.ACCEPTED);
+		log.info("broker details deleted successfully");
+		return new ResponseEntity<String>(
+				"Deletion SUCCESSFUL \n The details of broker which is deleted are :: " + broker1.toString(""),
+				HttpStatus.CREATED);
 	}
 
 	@GetMapping(value = "/viewbroker/{broId}")
-	public ResponseEntity<Broker> viewBroker(@PathVariable int broId) {
+	public ResponseEntity<String> viewBroker(@PathVariable int broId) {
+		log.info("Controller Triggered");
 		Broker broker = bService.viewBroker(broId);
-		return new ResponseEntity<Broker>(broker, HttpStatus.OK);
+		return new ResponseEntity<String>("The details of Broker as foloows : " + broker, HttpStatus.OK);
 
 	}
 
 	@GetMapping(value = "/listallbrokers")
 	public ResponseEntity<List<Broker>> listAllBrokers() {
+		log.info("Controller Triggered");
 		List<Broker> brokers = bService.listAllBrokers();
 		return new ResponseEntity<List<Broker>>(brokers, HttpStatus.OK);
 	}
