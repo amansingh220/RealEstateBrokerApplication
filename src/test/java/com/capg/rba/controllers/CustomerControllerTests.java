@@ -27,16 +27,16 @@ import com.capg.rba.services.CustomerService;
 public class CustomerControllerTests {
 
 	@Mock
-	CustomerService calculateArea;
+	CustomerService service;
 
 	@InjectMocks
-	CustomerController areaController;
+	CustomerController controller;
 
 	MockMvc mockMvc;
 
 	@BeforeEach
 	public void init() {
-		mockMvc = standaloneSetup(areaController).build();
+		mockMvc = standaloneSetup(controller).build();
 
 	}
 
@@ -103,7 +103,7 @@ public class CustomerControllerTests {
 		customer.setProperties(new ArrayList<Property>());
 		customer.setRole("Customer");
 
-		when(calculateArea.removeCustomer(1)).thenReturn(customer);
+		when(service.removeCustomer(1)).thenReturn(customer);
 		mockMvc.perform(delete("/rba/removecustomer/{custId}", 1)).andExpect(status().isOk());
 	}
 
@@ -120,7 +120,7 @@ public class CustomerControllerTests {
 		customer1.setProperties(new ArrayList<Property>());
 		customer1.setRole("Customer");
 
-		when(calculateArea.viewCustomer(1)).thenReturn(customer1);
+		when(service.viewCustomer(1)).thenReturn(customer1);
 		mockMvc.perform(get("/rba/viewcustomer/{custId}", 1)).andExpect(status().isOk());
 	}
 
