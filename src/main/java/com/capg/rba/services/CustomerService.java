@@ -14,7 +14,8 @@ import com.capg.rba.repositories.ICustomerRepository;
 @Service
 public class CustomerService implements ICustomerService {
 
-//	private final Logger LOGGER = LogManager.getLogger(CustomerService.class.getName());
+	// Logger Initializations
+	private final Logger log = LogManager.getLogger(CustomerService.class.getName());
 
 	@Autowired
 	private ICustomerRepository customerRepository;
@@ -22,6 +23,7 @@ public class CustomerService implements ICustomerService {
 	// addCustomer method inserts customer details.
 	@Override
 	public Customer addCustomer(Customer customer) {
+		log.info("Service Triggered");
 		Customer customerDetails = customerRepository.saveCustomer(customer);
 		return customerDetails;
 	}
@@ -29,6 +31,7 @@ public class CustomerService implements ICustomerService {
 	// editCustomer method updates a customer details.
 	@Override
 	public Customer editCustomer(Customer customer) {
+		log.info("Service Triggered");
 		Customer customerDetails = customerRepository.updateCustomer(customer);
 		return customerDetails;
 	}
@@ -36,6 +39,7 @@ public class CustomerService implements ICustomerService {
 	// removeCustomer method removes a customer details based on the custId.
 	@Override
 	public Customer removeCustomer(int custId) {
+		log.info("Service Triggered");
 		Customer customerDeatils = customerRepository.deleteCustomer(custId);
 		return customerDeatils;
 	}
@@ -43,7 +47,7 @@ public class CustomerService implements ICustomerService {
 	// viewCustomer method views a customer details based on the custId.
 	@Override
 	public Customer viewCustomer(int custId) {
-		// LOGGER.info("aman");
+		log.info("Service Triggered");
 		Customer customerDeatils = customerRepository.fetchCustomer(custId);
 		return customerDeatils;
 	}
@@ -51,6 +55,7 @@ public class CustomerService implements ICustomerService {
 	// listAllCustomers method list out all customers.
 	@Override
 	public List<Customer> listAllCustomers() {
+		log.info("Service Triggered");
 		List<Customer> customers = customerRepository.fetchAllCustomers();
 		return customers;
 	}

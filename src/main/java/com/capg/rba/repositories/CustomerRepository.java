@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -15,6 +17,9 @@ import com.capg.rba.exceptions.InvalidCustIdException;
 @Repository
 @Transactional
 public class CustomerRepository implements ICustomerRepository {
+	
+	//Logger Initialization
+	private final Logger log = LogManager.getLogger(CustomerRepository.class.getName());
 
 	@Autowired
 	private ICustomCustRepository customerRepository;
@@ -35,6 +40,7 @@ public class CustomerRepository implements ICustomerRepository {
 		Customer customerDetails = customerRepository.findByCustId(custId);
 
 		if (customerDetails == null) {
+			log.error("Customer Id " + custId + " is invalid.");
 			throw new InvalidCustIdException("Customer Id " + custId + " is invalid.");
 		}
 		customer.setUserId(customerDetails.getUserId());
@@ -57,6 +63,7 @@ public class CustomerRepository implements ICustomerRepository {
 	public Customer fetchCustomer(int custId) {
 		Customer customerDetails = customerRepository.findByCustId(custId);
 		if (customerDetails == null) {
+			log.error("Customer With " + custId + " Does Not Exist.");
 			throw new CustomerNotFoundException("Customer With " + custId + " Does Not Exist.");
 		}
 		return customerDetails;
