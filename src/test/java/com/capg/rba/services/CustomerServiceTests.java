@@ -26,10 +26,10 @@ public class CustomerServiceTests {
 
 	@MockBean
 	private CustomerRepository customerRepository;
-	
+
 	private Customer customer;
 	private Customer customer1;
-	
+
 	@BeforeEach
 	public void setup() {
 		Customer customer = new Customer();
@@ -42,7 +42,7 @@ public class CustomerServiceTests {
 		customer.setPassword("abcd9856@#452");
 		customer.setProperties(new ArrayList<Property>());
 		customer.setRole("Customer");
-		
+
 		Customer customer1 = new Customer();
 		customer1.setCustId(101);
 		customer1.setUserId(2245);
@@ -54,72 +54,73 @@ public class CustomerServiceTests {
 		customer1.setProperties(new ArrayList<Property>());
 		customer1.setRole("Customer");
 	}
-	
-	//Test method to test functionality of addCustomer Method.
+
+	// Test method to test functionality of addCustomer Method.
 	@Test
 	public void TestAddcustomer() {
 		Mockito.when(customerRepository.saveCustomer(customer)).thenReturn(customer);
 		Customer customer2 = customerService.addCustomer(customer);
 		Assertions.assertEquals(customer, customer2);
 	}
-	
-	//Test method to test functionality of editCustomer Method.
+
+	// Test method to test functionality of editCustomer Method.
 	@Test
 	public void TestEditCustomer() {
 		Mockito.when(customerRepository.updateCustomer(customer)).thenReturn(customer);
 		Customer customer2 = customerService.editCustomer(customer);
 		Assertions.assertEquals(customer, customer2);
-		
+
 	}
-	
-	//Test method to test functionality of removeCustomer Method.
+
+	// Test method to test functionality of removeCustomer Method.
 	@Test
 	public void TestRemoveCustomer() {
 		int custId = 101;
-		
+
 		Mockito.when(customerRepository.deleteCustomer(custId)).thenReturn(customer);
 		Customer customer2 = customerService.removeCustomer(custId);
 		Assertions.assertEquals(customer, customer2);
-		
+
 	}
-	
-	//Test method to test functionality of viewCustomer Method.
+
+	// Test method to test functionality of viewCustomer Method.
 	@Test
 	public void TestViewCustomer() {
 		int custId = 101;
-		
+
 		Mockito.when(customerRepository.fetchCustomer(custId)).thenReturn(customer);
 		Customer customer2 = customerService.viewCustomer(custId);
 		Assertions.assertEquals(customer, customer2);
 	}
-	
-	//Test method to test functionality of listAllCustomers Method.
+
+	// Test method to test functionality of listAllCustomers Method.
 	@Test
-	public void TestListAllCustomers() {		
+	public void TestListAllCustomers() {
 		List<Customer> customers = new ArrayList<Customer>();
 		customers.add(customer1);
 		customers.add(customer);
-		
+
 		Mockito.when(customerRepository.fetchAllCustomers()).thenReturn(customers);
 		List<Customer> customers2 = customerService.listAllCustomers();
 		Assertions.assertEquals(2, customers2.size());
-		
+
 	}
-	
-	//Test method to test if InvalidCustIdException is thrown by editCustomer method.
+
+	// Test method to test if InvalidCustIdException is thrown by editCustomer
+	// method.
 	@Test
 	public void TestEditCustomerInvalidCustIdException() {
 		Mockito.when(customerRepository.updateCustomer(customer)).thenThrow(new InvalidCustIdException());
 		Assertions.assertThrows(InvalidCustIdException.class, () -> customerService.editCustomer(customer));
-		
+
 	}
-	
-	//Test method to test if CustomerNotFoundException is thrown.
+
+	// Test method to test if CustomerNotFoundException is thrown.
 	@Test
 	public void TestFetchCustomerCustomerNotFoundException() {
 		int CustId = 105;
-		
+
 		Mockito.when(customerRepository.fetchCustomer(CustId)).thenThrow(new CustomerNotFoundException());
-		Assertions.assertThrows(CustomerNotFoundException.class, ()-> customerService.viewCustomer(CustId));
+		Assertions.assertThrows(CustomerNotFoundException.class, () -> customerService.viewCustomer(CustId));
 	}
 }
