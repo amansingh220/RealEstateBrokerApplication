@@ -27,3 +27,15 @@
 [DEBUG] 2021-03-11 16:40:17.510 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
 [INFO ] 2021-03-11 16:40:17.511 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
 [INFO ] 2021-03-11 16:40:19.594 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.132 seconds (JVM running for 471.429) at Line 61 
+[INFO ] 2021-03-11 16:44:28.734 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on Anjani with PID 13616 (C:\Users\hp0\git\repository4\RealEstateBrokerApplication\bin\main started by hp0 in C:\Users\hp0\git\repository4\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 16:44:28.734 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 16:44:28.735 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 16:44:30.849 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.18 seconds (JVM running for 722.684) at Line 61 
+[INFO ] 2021-03-11 16:44:42.657 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on Anjani with PID 13616 (C:\Users\hp0\git\repository4\RealEstateBrokerApplication\bin\main started by hp0 in C:\Users\hp0\git\repository4\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 16:44:42.658 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 16:44:42.658 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 16:44:44.835 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.222 seconds (JVM running for 736.668) at Line 61 
+[INFO ] 2021-03-11 16:52:08.164 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on Anjani with PID 13616 (C:\Users\hp0\git\repository4\RealEstateBrokerApplication\bin\main started by hp0 in C:\Users\hp0\git\repository4\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 16:52:08.165 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 16:52:08.165 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 16:52:10.229 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.114 seconds (JVM running for 1182.063) at Line 61 

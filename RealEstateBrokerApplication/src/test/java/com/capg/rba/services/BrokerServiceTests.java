@@ -72,6 +72,7 @@ public class BrokerServiceTests {
 		broker3.setRole("Broker");
 		
 	}
+	//Test method to test functionality of addBroker method
 	@Test
 	public void TestAddBroker()
 	{
@@ -81,7 +82,7 @@ public class BrokerServiceTests {
 		Assertions.assertEquals(broker1,broker2);
 	}
 	
-	//Test method 
+	//Test method to test functionality of editBroker method
 	@Test
 	public void TestEditBroker()
 	{
@@ -91,7 +92,7 @@ public class BrokerServiceTests {
 		Assertions.assertEquals(broker1,broker);
 	}
 	
-	
+	//Test method to test functionality of removeBroker method
 	@Test
 	public void TestRemoveBroker()
 	{
@@ -101,6 +102,7 @@ public class BrokerServiceTests {
 		Assertions.assertEquals(broker1,broker);
 	}
 	
+	//Test method to test functionality of viewBroker method
 	@Test
 	public void TestViewBroker()
 	{
@@ -111,6 +113,7 @@ public class BrokerServiceTests {
 		Assertions.assertEquals(broker1,broker);
 	}
 	
+	//Test method to test functionality of listAllBroker method
 	@Test
 	public void TestListAllBroker()
 	{
@@ -126,14 +129,16 @@ public class BrokerServiceTests {
 	}
 	
 	
+	//Test whether InvalidBrokerException is thrown by editBroker 
 	@Test
-	public void TestEditBrokerInvalidBrokerException()
+	public void TestEditBroker_InvalidBrokerException()
 	{
 	
 		when(brokerRepository.updateBroker(broker1)).thenThrow(new InvalidBroIdException()); 	
 		Assertions.assertThrows(InvalidBroIdException.class, () -> brokerService.editBroker(broker1));
 	}
 
+	//Test whether BrokerNotFoundException is thrown by fetchBroker
 	@Test
 	public void TestFetchBroker_BrokerNotFoundException()
 	{
