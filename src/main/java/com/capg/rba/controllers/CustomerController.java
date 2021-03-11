@@ -58,7 +58,6 @@ public class CustomerController {
 		customer.setRole("Customer");
 		customer.setCustId(custId);
 		Customer customer1 = customerService.editCustomer(customer);
-		log.info("Customer details deleted successfully having details");
 		return new ResponseEntity<String>(
 				"Deatils updated successfully, Updated details are present below" + customer1.toString("msg"),
 				HttpStatus.OK);
@@ -70,7 +69,6 @@ public class CustomerController {
 	public ResponseEntity<String> removeCustomer(@PathVariable int custId) {
 		log.info("Controller Triggered");
 		Customer customer1 = customerService.removeCustomer(custId);
-		log.info("Customer details deleted successfully having details");
 		return new ResponseEntity<String>(
 				"Customer details deleted successfully having details" + customer1.toString("msg"), HttpStatus.OK);
 	}

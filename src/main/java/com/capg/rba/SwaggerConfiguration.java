@@ -19,7 +19,7 @@ public class SwaggerConfiguration {
 	{
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.paths(PathSelectors.regex("/rba.*"))
+				.paths(PathSelectors.any())
 				.apis(RequestHandlerSelectors.basePackage("com.capg.rba"))
 				.build()
 				.apiInfo(getApiInfo());
@@ -27,11 +27,11 @@ public class SwaggerConfiguration {
     
     private ApiInfo getApiInfo() {
 	    return new ApiInfo(
-		    "Cab Booking Application",
-		    "Authors: Ankitha Suraksha, Arfath Pasha, Ashutosh Rao Chawan U, Bharat Singh, D Sri Madhu Priya, Farooq Shaik Mohammad",
+		    "Real Estate Broker Application",
+		    "Authors: Aman Singh, Aditya Shrivastava, Anjani Mehta, Arpit Agnihotri, Ayush Mittal, Deepak Kumar",
 		    "1.0.0",
-		    "https://cba.cg.com",
-		    new Contact("Batch 1, Group 1 DCX","https://capgemini.com","group1@rao.life"),
+		    "https://rba.capg.com",
+		    new Contact("Batch 1, Group 4 FS","https://capgemini.com","group4@rba.life"),
 		    "GNU V3",
 		    "LICENSE URL",
 		    Collections.emptyList()

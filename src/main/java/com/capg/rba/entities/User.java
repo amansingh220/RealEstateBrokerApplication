@@ -41,7 +41,7 @@ public class User {
 	@ApiModelProperty(notes = "password should consist of minimum six characters", example = "vision@4512", required = true, position = 2)
 	private String password;
 	
-	@ApiModelProperty(notes = "value of role should be either Customer or Broker", example = "customer", required = true, position = 3)
+	@ApiModelProperty(notes = "value of role should be customer", example = "customer", required = false, position = 3)
 	private String role;
 	
 	@NotNull(message = "mobile number can not be null")

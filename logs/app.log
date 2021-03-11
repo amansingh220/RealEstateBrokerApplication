@@ -152,3 +152,64 @@
 [DEBUG] 2021-03-11 13:55:43.645 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
 [INFO ] 2021-03-11 13:55:43.645 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
 [INFO ] 2021-03-11 13:55:45.099 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.487 seconds (JVM running for 211.939) at Line 61 
+[INFO ] 2021-03-11 16:51:05.209 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 16:51:05.414 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 16:51:05.831 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2032 (C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication\bin\main started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 16:51:05.834 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 16:51:05.835 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 16:51:12.708 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 7.283 seconds (JVM running for 8.704) at Line 61 
+[INFO ] 2021-03-11 16:53:35.424 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 16:53:35.485 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2032 (C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication\bin\main started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 16:53:35.486 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 16:53:35.486 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 16:53:37.793 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.361 seconds (JVM running for 153.79) at Line 61 
+[INFO ] 2021-03-11 17:45:08.576 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 17:45:08.794 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 17:45:09.272 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2492 (C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication\bin\main started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:45:09.275 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:45:09.276 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:45:17.006 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 8.203 seconds (JVM running for 9.733) at Line 61 
+[INFO ] 2021-03-11 17:53:37.669 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 13160 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:53:37.673 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:53:37.676 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:53:49.012 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 11.718 seconds (JVM running for 15.47) at Line 61 
+[INFO ] 2021-03-11 17:54:30.750 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8036 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:54:30.755 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:54:30.757 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:54:41.526 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 11.26 seconds (JVM running for 14.078) at Line 61 
+[INFO ] 2021-03-11 17:55:14.187 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 26900 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:55:14.192 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:55:14.194 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:55:25.242 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 11.56 seconds (JVM running for 14.351) at Line 61 
+[INFO ] 2021-03-11 17:55:52.070 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 17116 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:55:52.075 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:55:52.078 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:56:03.049 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 11.392 seconds (JVM running for 14.26) at Line 61 
+[INFO ] 2021-03-11 17:56:14.960 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 17:56:15.255 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 17:56:15.959 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16192 (C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication\bin\main started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:56:15.963 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:56:15.965 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:56:24.977 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 9.708 seconds (JVM running for 11.373) at Line 61 
+[INFO ] 2021-03-11 17:56:29.898 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16944 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 17:56:29.906 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 17:56:29.910 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 17:56:44.312 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 14.961 seconds (JVM running for 18.645) at Line 61 
+[INFO ] 2021-03-11 18:12:49.469 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-11 18:12:49.534 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16192 (C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication\bin\main started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 18:12:49.535 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 18:12:49.535 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 18:12:52.048 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.568 seconds (JVM running for 998.444) at Line 61 
+[INFO ] 2021-03-11 18:51:20.699 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 24156 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 18:51:20.703 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 18:51:20.705 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 18:51:28.325 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 7.85 seconds (JVM running for 9.18) at Line 61 
+[INFO ] 2021-03-11 18:52:25.132 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 4312 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 18:52:25.138 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 18:52:25.141 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 18:52:31.450 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 6.549 seconds (JVM running for 7.936) at Line 61 
+[INFO ] 2021-03-11 18:56:19.655 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16996 (started by Aman Thakur in C:\Users\Aman Thakur\git\repository2\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-11 18:56:19.659 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-11 18:56:19.661 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-11 18:56:26.039 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 6.623 seconds (JVM running for 8.0) at Line 61 
+[INFO ] 2021-03-11 18:56:26.340 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 90 
