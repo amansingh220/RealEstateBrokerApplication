@@ -56,7 +56,7 @@ public class CustomerController {
 	public ResponseEntity<String> editCustomer(@RequestBody Customer customer, @PathVariable int custId) {
 		log.info("Controller Triggered");
 		List<Property> properties = new ArrayList<Property>();
-		customer.setProperties(properties);
+//		customer.setProperties(properties);
 		customer.setRole("Customer");
 		customer.setCustId(custId);
 		Customer customer1 = customerService.editCustomer(customer);

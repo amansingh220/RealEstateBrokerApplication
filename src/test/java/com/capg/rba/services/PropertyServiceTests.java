@@ -9,7 +9,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
 import com.capg.rba.entities.Property;
 import com.capg.rba.exceptions.InvalidPropIdException;
@@ -99,7 +98,7 @@ public class PropertyServiceTests {
 		properties.add(property);
 		
 		Mockito.when(propertyRepository.fetchAllProperties()).thenReturn(properties);
-		List<Property> properties2 = propertyService.listAllProperties();
+		properties = propertyService.listAllProperties();
 		Assertions.assertEquals(2, properties.size());
 		
 	}

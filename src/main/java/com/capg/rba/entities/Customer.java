@@ -9,6 +9,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -31,9 +34,11 @@ public class Customer extends User {
 	@ApiModelProperty(notes = "custName can not be null or blank", example = "Anshi khetan", required = true, position = 2)
 	private String custName;
 
+	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	@ApiModelProperty(notes = "The value of this feild Will Not Be Provided By The Customer", required = false, position = 3)
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@JoinColumn(name = "custUserId")
+	@NotNull(message = "Property can not be null")
 	private List<Property> properties;
 
 	@Override

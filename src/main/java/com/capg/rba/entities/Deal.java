@@ -10,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import io.swagger.annotations.ApiModel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -30,10 +32,12 @@ public class Deal {
 	private LocalDate dealDate;
 	private double dealCost;
 
+	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
 	@JoinColumn(name = "custUserId")
 	private Customer customer;
 
+	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
 	@JoinColumn(name = "propId")
 	private Property property;

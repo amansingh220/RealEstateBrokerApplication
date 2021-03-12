@@ -11,6 +11,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.validation.constraints.NotBlank;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
@@ -33,6 +35,7 @@ public class Broker extends User {
 	@ApiModelProperty(notes = "Broker name can not be blank or null", required = true, position=2)
 	private String broName;
 
+	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position=3)
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)	
 	@JoinColumn(name = "broUserId")
