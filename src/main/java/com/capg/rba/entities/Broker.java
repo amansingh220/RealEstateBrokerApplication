@@ -6,6 +6,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 
@@ -24,7 +25,8 @@ public class Broker extends User {
 	private int broId;
 	private String broName;
 
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinColumn(name = "broUserId")
 	private List<Property> properties;
 	
 }
