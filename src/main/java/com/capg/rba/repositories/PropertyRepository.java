@@ -5,9 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Property;
-import com.capg.rba.exceptions.PropertyNotFoundException;
-import com.sun.xml.bind.annotation.OverrideAnnotationOf;
 import com.capg.rba.exceptions.InvalidPropIdException;
+import com.capg.rba.exceptions.PropertyNotFoundException;
 
 
 @Repository
@@ -28,12 +27,11 @@ public class PropertyRepository implements IPropertyRepository {
 	@Override
 	public Property updateProperty(Property property) {
 		int propId = property.getPropId();
-		Property propertyDetails = propertyRepository.findByPropId(propId);
+		Property propertyDetails = propertyRepository.findById(propId).get();
 
 		if (propertyDetails == null) {
 			throw new InvalidPropIdException("Property Id " + propId + " is invalid.");
 		}
-		property.setBroId(propertyDetails.getBroId());
 		propertyRepository.save(property);
 		return propertyDetails;
 	}
@@ -43,7 +41,7 @@ public class PropertyRepository implements IPropertyRepository {
 	@Override
 	public Property deleteProperty(int propId) {
 		Property propertyDetails = fetchProperty(propId);
-		propertyRepository.deleteByPropId(propId);
+		propertyRepository.deleteById(propId);
 		return propertyDetails;
 	}
 
@@ -51,7 +49,7 @@ public class PropertyRepository implements IPropertyRepository {
 	// based on the propId.
 	@Override
 	public Property fetchProperty(int propId) {
-		Property propertyDetails = propertyRepository.findByPropId(propId);
+		Property propertyDetails = propertyRepository.findById(propId).get();
 		if (propertyDetails == null) {
 			throw new PropertyNotFoundException("Property With " + propId + " Does Not Exist.");
 		}

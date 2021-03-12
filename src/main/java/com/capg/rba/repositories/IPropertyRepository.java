@@ -14,7 +14,7 @@ public interface IPropertyRepository {
 	public Property deleteProperty(int propId);
 	public Property fetchProperty(int propId);
 	public List<Property> fetchAllProperties();
-	public List<Property> fetchPropertyByCriteria(PropertyCriteria criteria);
+//	public List<Property> fetchPropertyByCriteria(PropertyCriteria criteria);
 	
 
 }

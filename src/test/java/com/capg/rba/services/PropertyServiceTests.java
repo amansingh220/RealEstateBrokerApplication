@@ -12,8 +12,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 
 import com.capg.rba.entities.Broker;
 import com.capg.rba.entities.Property;
-import com.capg.rba.exceptions.PropertyNotFoundException;
 import com.capg.rba.exceptions.InvalidPropIdException;
+import com.capg.rba.exceptions.PropertyNotFoundException;
 import com.capg.rba.repositories.PropertyRepository;
 
 //Test class to test service layer 
@@ -42,7 +42,6 @@ public class PropertyServiceTests {
 		//String configuration, String offerType, double offerCost, double areaSqft, String address,
 		//String street, String city, boolean status
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
 
 		Mockito.when(propertyRepository.saveProperty(property)).thenReturn(property);
 		Property property2 = propertyService.addProperty(property);
@@ -65,7 +64,7 @@ public class PropertyServiceTests {
 		//String configuration, String offerType, double offerCost, double areaSqft, String address,
 		//String street, String city, boolean status
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
+
 
 		Mockito.when(propertyRepository.updateProperty(property)).thenReturn(property);
 		Property property2 = propertyService.editProperty(property);
@@ -90,7 +89,8 @@ public class PropertyServiceTests {
 		//String configuration, String offerType, double offerCost, double areaSqft, String address,
 		//String street, String city, boolean status
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
+		
+		int propId=10;
 
 		
 		Mockito.when(propertyRepository.deleteProperty(propId)).thenReturn(property);
@@ -116,7 +116,8 @@ public class PropertyServiceTests {
 		//String configuration, String offerType, double offerCost, double areaSqft, String address,
 		//String street, String city, boolean status
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
+	
+		int propId=10;
 
 		Mockito.when(propertyRepository.fetchProperty(propId)).thenReturn(property);
 		Property property2 = propertyService.viewProperty(propId);
@@ -150,9 +151,9 @@ public class PropertyServiceTests {
 		broker.setRole("Customer");
 		
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
+	
 		Property property1 = new Property("Shop", "rent", 300000.54, 725625.256, "mahadev colony", "sadar bazar", "mathura", true);
-		property1.setBroker1(broker1);
+		
 		
 		List<Property> properties = new ArrayList<Property>();
 		properties.add(property1);
@@ -179,7 +180,6 @@ public class PropertyServiceTests {
 		broker.setRole("Customer");
 		
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
 		
 		Mockito.when(propertyRepository.updateProperty(property)).thenThrow(new InvalidPropIdException());
 		Assertions.assertThrows(InvalidPropIdException.class, () -> propertyService.editProperty(property));
@@ -199,12 +199,12 @@ public class PropertyServiceTests {
 		broker.setPassword("9856@#452");
 		broker.setProperties(new ArrayList<Property>());
 		broker.setRole("Customer");
+		int propId=10;
 		
 		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow", true);
-		property.setBroker(broker);
 		
-		Mockito.when(propertyRepository.fetchProperty(PropId)).thenThrow(new PropertyNotFoundException());
-		Assertions.assertThrows(PropertyNotFoundException.class, ()-> propertyService.viewProperty(PropId));
+		Mockito.when(propertyRepository.fetchProperty(propId)).thenThrow(new PropertyNotFoundException());
+		Assertions.assertThrows(PropertyNotFoundException.class, ()-> propertyService.viewProperty(propId));
 	}
 }
 

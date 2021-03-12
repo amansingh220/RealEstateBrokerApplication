@@ -20,7 +20,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ApiModel
 public class Property {
-	
+
 	@Id
 	@GeneratedValue
 	private int propId;
@@ -32,10 +32,10 @@ public class Property {
 	private String street;
 	private String city;
 	private boolean status;
-
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "broId")
-	private Broker broker;
+//
+//	@ManyToOne(fetch = FetchType.LAZY)
+//	@JoinColumn(name = "broUserId")
+//	private Broker broker;
 
 	public Property(String configuration, String offerType, double offerCost, double areaSqft, String address,
 			String street, String city, boolean status) {

@@ -64,7 +64,7 @@ public class CustomerRepository implements ICustomerRepository {
 		Customer customerDetails = customerRepository.findByCustId(custId);
 		if (customerDetails == null) {
 			log.error("Customer With " + custId + " Does Not Exist.");
-			throw new CustomerNotFoundException("Customer With " + custId + " Does Not Exist.");
+			throw new CustomerNotFoundException("Customer With Id " + custId + " Does Not Exist.");
 		}
 		return customerDetails;
 	}
@@ -72,8 +72,11 @@ public class CustomerRepository implements ICustomerRepository {
 	// fetchAllCustomers gets all customer details from respective database table.
 	@Override
 	public List<Customer> fetchAllCustomers() {
-		List<Customer> costomers = customerRepository.findAll();
-		return costomers;
+		List<Customer> customers = customerRepository.findAll();
+		if(customers.isEmpty()) {
+			throw new CustomerNotFoundException("Any customer has not registered yet");
+		}
+		return customers;
 	}
 
 }
