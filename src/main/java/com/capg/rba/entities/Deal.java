@@ -31,7 +31,7 @@ public class Deal {
 	private double dealCost;
 
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
-	@JoinColumn(name = "custId")
+	@JoinColumn(name = "custUserId")
 	private Customer customer;
 
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)

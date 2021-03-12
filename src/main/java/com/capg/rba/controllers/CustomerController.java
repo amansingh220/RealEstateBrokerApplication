@@ -55,6 +55,8 @@ public class CustomerController {
 	@PutMapping(value = "/editcustomer/{custId}")
 	public ResponseEntity<String> editCustomer(@RequestBody Customer customer, @PathVariable int custId) {
 		log.info("Controller Triggered");
+		List<Property> properties = new ArrayList<Property>();
+		customer.setProperties(properties);
 		customer.setRole("Customer");
 		customer.setCustId(custId);
 		Customer customer1 = customerService.editCustomer(customer);
@@ -70,7 +72,7 @@ public class CustomerController {
 		log.info("Controller Triggered");
 		Customer customer1 = customerService.removeCustomer(custId);
 		return new ResponseEntity<String>(
-				"Customer details deleted successfully having details" + customer1.toString("msg"), HttpStatus.OK);
+				"Customer with below listed details deleted successfully" + customer1.toString("msg"), HttpStatus.OK);
 	}
 
 	// End point to view customer by custId

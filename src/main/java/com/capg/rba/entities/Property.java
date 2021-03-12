@@ -34,7 +34,7 @@ public class Property {
 	private boolean status;
 
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "broId")
+	@JoinColumn(name = "broUserId")
 	private Broker broker;
 
 	public Property(String configuration, String offerType, double offerCost, double areaSqft, String address,
