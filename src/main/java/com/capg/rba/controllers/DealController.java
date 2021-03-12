@@ -15,7 +15,9 @@ import com.capg.rba.dto.DealRequest;
 import com.capg.rba.entities.Customer;
 import com.capg.rba.entities.Deal;
 import com.capg.rba.entities.Property;
+import com.capg.rba.services.ICustomerService;
 import com.capg.rba.services.IDealService;
+import com.capg.rba.services.IPropertyService;
 
 @RestController
 @RequestMapping(value = "/rba")
@@ -24,30 +26,16 @@ public class DealController {
 	@Autowired
 	private IDealService dealService;
 	
+	@Autowired 
+	private IPropertyService propertyService;
+	
+	@Autowired
+	private ICustomerService customerService;
+	
 	@PostMapping(value = "/adddeal")
 	public ResponseEntity<Deal> addDeal(@RequestBody DealRequest dealRequest) {
-		Property property=new Property();
-		Customer customer=new Customer();
-	
-		customer.setUserId(dealRequest.getUserId());
-		customer.setCustId(dealRequest.getCustId());
-		customer.setCustName(dealRequest.getCustName());
-		customer.setPassword(dealRequest.getPassword());
-		customer.setRole(dealRequest.getRole());
-		customer.setEmail(dealRequest.getEmail());
-		customer.setMobile(dealRequest.getMobile());
-		customer.setCity(dealRequest.getCity());
-		customer.setProperties(dealRequest.getProperties());
-		
-		property.setPropId(dealRequest.getPropId());
-		property.setConfiguration(dealRequest.getConfiguration());
-		property.setOfferType(dealRequest.getOfferType());
-		property.setOfferCost(dealRequest.getOfferCost());
-		property.setAreaSqft(dealRequest.getAreaSqft());
-		property.setAddress(dealRequest.getAddress());
-		property.setStreet(dealRequest.getStreet());
-		property.setCity(dealRequest.getPropCity());
-		property.setStatus(dealRequest.isStatus());
+		Property property=propertyService.viewProperty(dealRequest.getPropId());
+		Customer customer=customerService.viewCustomer(dealRequest.getCustId());
 		
 		Deal deal = dealService.addDeal(property,customer);
 		return new ResponseEntity<Deal>(deal, HttpStatus.CREATED);

@@ -1,6 +1,8 @@
 package com.capg.rba.repositories;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -25,16 +27,14 @@ public class DealRepository implements IDealRepository {
 	@Autowired
 	ICustomerRepository custRepository;
 
-	@Autowired
-	IPropertyPropRepository propRepository;
 
 	// SaveDeal method insert the deal details in database table
 	@Override
-	public Deal saveDeal(Property property, Customer customer) {
+	public Deal saveDeal(Property property1, Customer customer1) {
 		LocalDate dealDate = LocalDate.now();
-		Customer customer1 = custRepository.fetchCustomer(customer.getUserId());
-		Property property1 = propRepository.findById(property.getPropId()).get();
-		
+//		Customer customer1=custRepository.fetchCustomer(customer.getUserId());
+//		Property property1=d.findById(property.getPropId()).get();
+
 		if (!property1.isStatus()) {
 			throw new PropertyAlreadySoldException("Property with Id " + property1.getPropId() + " is already sold");
 		} else {
@@ -54,10 +54,17 @@ public class DealRepository implements IDealRepository {
 	@Override
 	public List<Deal> fetchAllDeals() {
 		List<Deal> deals = repository.findAll();
+		List<Deal> deals1=new ArrayList<Deal>();
 		if (deals.isEmpty()) {
 			throw new DealsNotFoundException("No Deal detail are available right now");
 		}
-		return deals;
+		Iterator<Deal> it = deals.iterator();
+		while(it.hasNext()) {
+			int dealId = it.next().getDealId();
+			Deal deal = repository.findById(dealId).get();
+			deals1.add(deal);
+		}
+		return deals1;
 	}
 
 }

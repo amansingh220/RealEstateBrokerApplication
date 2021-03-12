@@ -2,6 +2,7 @@ package com.capg.rba.errors;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 import javax.validation.ConstraintViolation;
@@ -21,6 +22,7 @@ import com.capg.rba.exceptions.InvalidCustIdException;
 import com.capg.rba.exceptions.InvalidEmailException;
 import com.capg.rba.exceptions.InvalidPasswordException;
 import com.capg.rba.exceptions.InvalidPropIdException;
+import com.capg.rba.exceptions.PropertyAlreadySoldException;
 import com.capg.rba.exceptions.PropertyNotFoundException;
 
 //GlobleExceptionHandler class defines exception handlers that handles all the exception that is thrown during application execution.
@@ -125,4 +127,19 @@ public class GlobleExceptionHandler {
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
+
+	// PropertyAlreadySoldException
+	@ExceptionHandler(PropertyAlreadySoldException.class)
+	private ResponseEntity<String> handleInvalidPropIdException(PropertyAlreadySoldException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+	
+		@ExceptionHandler(NoSuchElementException.class)
+		private ResponseEntity<String> handleNoSuchElementException(NoSuchElementException exception) {
+			ResponseEntity<String> responseEntity = new ResponseEntity<String>("Entered custId or propId does not belongs to any customer or property",
+					HttpStatus.BAD_REQUEST);
+			return responseEntity;
+		}
 }
