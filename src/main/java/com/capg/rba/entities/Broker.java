@@ -9,7 +9,10 @@ import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
+import javax.validation.constraints.NotBlank;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -18,15 +21,21 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@ApiModel
 @PrimaryKeyJoinColumn(name = "userId")
 public class Broker extends User {
 
-	@Column(unique = true, nullable = false)
+	@Column(unique= true, nullable=false)
+	@ApiModelProperty(notes = "Broker id will be automatically generated", required = false, position=1)
 	private int broId;
+	
+	@NotBlank(message="Broker name can not be blank")
+	@ApiModelProperty(notes = "Broker name can not be blank or null", required = true, position=2)
 	private String broName;
 
-	@OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-	@JoinColumn(name="broUserId")
+	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position=3)
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)	
+	@JoinColumn(name = "broUserId")
 	private List<Property> properties;
 	
 	@Override
@@ -46,5 +55,4 @@ public class Broker extends User {
 				+ "	email : " + getEmail() + "\n" + "	city : " + getCity() +"\n"+"	properties : "+getProperties()+"\n";
 		return message;
 	}
-	
 }
