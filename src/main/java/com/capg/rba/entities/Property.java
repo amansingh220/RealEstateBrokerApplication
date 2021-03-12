@@ -1,11 +1,8 @@
 package com.capg.rba.entities;
 
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Getter;
@@ -32,10 +29,6 @@ public class Property {
 	private String street;
 	private String city;
 	private boolean status;
-//
-//	@ManyToOne(fetch = FetchType.LAZY)
-//	@JoinColumn(name = "broUserId")
-//	private Broker broker;
 
 	public Property(String configuration, String offerType, double offerCost, double areaSqft, String address,
 			String street, String city, boolean status) {

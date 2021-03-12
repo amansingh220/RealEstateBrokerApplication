@@ -32,7 +32,7 @@ public class Customer extends User {
 	private String custName;
 
 	@ApiModelProperty(notes = "The value of this feild Will Not Be Provided By The Customer", required = false, position = 3)
-	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	@JoinColumn(name = "custUserId")
 	private List<Property> properties;
 

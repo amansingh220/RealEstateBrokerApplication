@@ -25,7 +25,7 @@ public class Broker extends User {
 	private int broId;
 	private String broName;
 
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.EAGER, mappedBy = "broker", cascade = CascadeType.ALL)
 	@JoinColumn(name = "broUserId") //added 
 	private List<Property> properties;
 	
