@@ -1491,3 +1491,192 @@
 [INFO ] 2021-03-13 17:55:52.662 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
 [INFO ] 2021-03-13 17:55:52.662 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 42 
 [ERROR] 2021-03-13 17:55:52.665 ERROR :com.capg.rba.repositories.CustomerRepository[fetchCustomer] Customer With 608 Does Not Exist. at Line 82 
+[INFO ] 2021-03-13 18:14:21.005 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:14:21.153 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:14:21.554 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:14:21.557 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:14:21.558 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:14:27.751 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 6.59 seconds (JVM running for 7.368) at Line 61 
+[INFO ] 2021-03-13 18:14:58.597 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-13 18:14:58.598 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 71 
+[INFO ] 2021-03-13 18:15:07.711 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:15:07.711 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:18:54.755 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:18:54.813 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:18:54.815 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:18:54.815 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:18:56.698 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.939 seconds (JVM running for 276.315) at Line 61 
+[INFO ] 2021-03-13 18:19:07.574 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:19:07.575 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:19:10.606 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:19:10.607 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:22:19.449 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:22:19.487 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:22:19.487 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:22:19.488 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:22:21.332 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.879 seconds (JVM running for 480.949) at Line 61 
+[INFO ] 2021-03-13 18:22:26.846 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:22:26.847 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:22:43.912 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:22:43.912 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:22:51.519 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:22:51.520 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:23:26.707 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:23:26.737 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:23:26.737 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:23:26.738 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:23:28.547 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.833 seconds (JVM running for 548.163) at Line 61 
+[INFO ] 2021-03-13 18:24:25.115 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:24:25.116 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:26:13.978 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:26:14.004 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:26:14.005 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:26:14.005 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:26:15.745 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.763 seconds (JVM running for 715.362) at Line 61 
+[INFO ] 2021-03-13 18:27:07.101 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:27:07.102 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:27:15.481 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:27:15.481 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:27:32.385 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:27:32.386 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:27:40.100 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:27:40.101 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:27:44.574 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:27:44.575 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:28:31.728 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:28:31.728 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:28:31.729 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to edit property details at Line 31 
+[INFO ] 2021-03-13 18:28:53.915 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:28:53.948 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:28:53.948 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:28:53.948 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:28:55.457 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.538 seconds (JVM running for 875.074) at Line 61 
+[INFO ] 2021-03-13 18:28:58.016 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:28:58.017 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:28:58.017 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-13 18:28:59.684 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:28:59.684 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:28:59.684 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-13 18:29:00.703 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:29:00.703 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:29:00.704 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-13 18:29:01.605 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:29:01.605 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:29:01.605 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-13 18:29:02.250 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:29:02.250 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:29:02.251 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-13 18:29:18.497 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:29:18.525 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:29:18.526 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:29:18.526 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:29:20.126 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.624 seconds (JVM running for 899.742) at Line 61 
+[INFO ] 2021-03-13 18:29:41.122 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:29:41.145 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:29:41.146 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:29:41.146 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:29:42.513 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.386 seconds (JVM running for 922.13) at Line 61 
+[INFO ] 2021-03-13 18:32:09.490 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:32:09.518 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:32:09.518 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:32:09.518 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:32:10.812 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.317 seconds (JVM running for 1070.43) at Line 61 
+[INFO ] 2021-03-13 18:32:50.047 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:32:50.047 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:32:50.047 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-13 18:33:08.286 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-13 18:33:08.287 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 67 
+[INFO ] 2021-03-13 18:33:17.954 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-13 18:33:17.955 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 59 
+[ERROR] 2021-03-13 18:33:17.961 ERROR :com.capg.rba.repositories.CustomerRepository[fetchCustomer] Customer With 105 Does Not Exist. at Line 89 
+[INFO ] 2021-03-13 18:33:30.351 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-13 18:33:30.351 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 59 
+[INFO ] 2021-03-13 18:33:50.457 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:33:50.458 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 43 
+[INFO ] 2021-03-13 18:34:09.398 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:34:09.398 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 43 
+[INFO ] 2021-03-13 18:36:29.214 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:36:29.240 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:36:29.241 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:36:29.241 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:36:30.608 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.39 seconds (JVM running for 1330.226) at Line 61 
+[INFO ] 2021-03-13 18:37:01.902 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:37:01.924 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:37:01.925 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:37:01.925 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:37:03.291 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.386 seconds (JVM running for 1362.908) at Line 61 
+[INFO ] 2021-03-13 18:37:31.455 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:37:31.477 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:37:31.478 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:37:31.478 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:37:32.774 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.316 seconds (JVM running for 1392.391) at Line 61 
+[INFO ] 2021-03-13 18:37:41.376 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:37:41.398 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:37:41.398 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:37:41.398 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:37:42.774 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.394 seconds (JVM running for 1402.391) at Line 61 
+[INFO ] 2021-03-13 18:38:22.303 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:38:22.303 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:38:22.303 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 30 
+[INFO ] 2021-03-13 18:38:36.920 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:38:36.921 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[ERROR] 2021-03-13 18:38:36.921 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 30 
+[INFO ] 2021-03-13 18:38:48.830 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-13 18:38:48.831 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 27 
+[INFO ] 2021-03-13 18:39:00.350 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:39:00.350 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:39:12.511 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:39:12.512 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:39:32.690 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:39:32.715 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:39:32.715 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:39:32.715 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:39:33.922 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.228 seconds (JVM running for 1513.539) at Line 61 
+[INFO ] 2021-03-13 18:40:14.596 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:40:14.624 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:40:14.625 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:40:14.625 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:40:15.851 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.249 seconds (JVM running for 1555.467) at Line 61 
+[INFO ] 2021-03-13 18:40:33.696 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:40:33.696 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:40:49.054 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:40:49.054 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:42:07.605 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:42:07.605 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:42:18.454 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:42:18.454 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:42:38.229 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:42:38.229 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:42:40.985 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:42:40.985 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:43:55.072 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:43:55.098 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:43:55.098 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:43:55.098 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:43:56.390 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.315 seconds (JVM running for 1776.008) at Line 61 
+[INFO ] 2021-03-13 18:44:00.947 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:44:00.948 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:44:02.262 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:44:02.263 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:44:21.401 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:44:21.401 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[ERROR] 2021-03-13 18:44:21.402 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 43 
+[INFO ] 2021-03-13 18:44:56.907 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:44:56.907 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:45:22.123 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:45:22.124 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:47:20.156 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:47:20.186 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:47:20.186 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:47:20.186 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:47:21.532 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.373 seconds (JVM running for 1981.149) at Line 61 
+[INFO ] 2021-03-13 18:47:49.830 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-13 18:47:49.853 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15344 (D:\Capg_Sprint_1\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capg_Sprint_1\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-13 18:47:49.854 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-13 18:47:49.854 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-13 18:47:51.250 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.417 seconds (JVM running for 2010.867) at Line 61 
+[INFO ] 2021-03-13 18:47:56.172 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:47:56.172 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[INFO ] 2021-03-13 18:48:10.258 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-13 18:48:10.259 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 40 
+[ERROR] 2021-03-13 18:48:10.259 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 43 

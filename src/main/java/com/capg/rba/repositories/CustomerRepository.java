@@ -12,7 +12,6 @@ import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Customer;
 import com.capg.rba.entities.Property;
-import com.capg.rba.exceptions.CustomerCantAddPropertyException;
 import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
 import com.capg.rba.exceptions.InvalidCustIdException;
