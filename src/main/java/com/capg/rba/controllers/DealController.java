@@ -21,6 +21,8 @@ import com.capg.rba.services.ICustomerService;
 import com.capg.rba.services.IDealService;
 import com.capg.rba.services.IPropertyService;
 
+import io.swagger.annotations.ApiOperation;
+
 //Controller class for RESTful Web services
 @RestController
 @RequestMapping(value = "/rba")
@@ -40,6 +42,7 @@ public class DealController {
 
 	// End point for inserting deal
 	@PostMapping(value = "/adddeal")
+	@ApiOperation(value = "used to insert deal and return deal details")
 	public ResponseEntity<Deal> addDeal(@RequestBody DealRequest dealRequest) {
 		Property property = propertyService.viewProperty(dealRequest.getPropId());
 		Customer customer = customerService.viewCustomer(dealRequest.getCustId());
@@ -50,6 +53,7 @@ public class DealController {
 
 	// End point to view all deals
 	@GetMapping(value = "/listalldeals")
+	@ApiOperation(value = "Used to list all deals, return all deal details")
 	public ResponseEntity<List<Deal>> listAllDeal() {
 		List<Deal> deals = dealService.listAllDeals();
 		return new ResponseEntity<List<Deal>>(deals, HttpStatus.OK);
