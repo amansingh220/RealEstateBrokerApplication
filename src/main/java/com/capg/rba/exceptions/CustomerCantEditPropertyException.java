@@ -14,4 +14,3 @@ public class CustomerCantEditPropertyException extends RuntimeException {
 	}
 
 }
-

@@ -43,13 +43,14 @@ public class LoginServiceTests {
 
 	}
 
-	@Test void TestLoginInvalidPasswordException() {
+	@Test
+	void TestLoginInvalidPasswordException() {
 		User user = new User();
 		user.setEmail("ms2283939@gmail.com");
 		user.setPassword("aktu45ldd");
 
 		Mockito.when(loginService.login(user)).thenThrow(new InvalidPasswordException());
-		Assertions.assertThrows(InvalidPasswordException.class,() -> loginService.login(user));
+		Assertions.assertThrows(InvalidPasswordException.class, () -> loginService.login(user));
 
 	}
 }

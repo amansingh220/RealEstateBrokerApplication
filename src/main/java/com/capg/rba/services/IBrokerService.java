@@ -8,6 +8,7 @@ import com.capg.rba.entities.Broker;
 
 @Service
 public interface IBrokerService {
+	
 	public Broker addBroker(Broker bro);
 	public Broker editBroker(Broker bro);
 	public Broker removeBroker(int broId); 

@@ -33,7 +33,7 @@ public class Customer extends User {
 	@ApiModelProperty(notes = "custName can not be null or blank", example = "Anshi khetan", required = true, position = 2)
 	private String custName;
 
-	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
 	@ApiModelProperty(notes = "The value of this feild Will Not Be Provided By The Customer", required = false, position = 3)
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
 	@JoinColumn(name = "custUserId")
@@ -41,19 +41,19 @@ public class Customer extends User {
 
 	@Override
 	public String toString() {
-		String message = "You login credentials are given below : \n" + "{\n" + "	userId : "
-				+ getUserId() + "\n" + "	password : " + getPassword() + "\n}" + "\n\n"
-				+ "Other details are as follows : \n" + "{\n" + "	custId : " + getCustId() + "\n" + "	custName : "
-				+ getCustName() + "\n" + "	role : " + getRole() + "\n" + "	mobile : " + getMobile() + "\n"
-				+ "	email : " + getEmail() + "\n" + "	city : " + getCity() +"\n"+"	properties : "+getProperties()+"\n}";
+		String message = "You login credentials are given below : \n" + "{\n" + "	userId : " + getUserId() + "\n"
+				+ "	password : " + getPassword() + "\n}" + "\n\n" + "Other details are as follows : \n" + "{\n"
+				+ "	custId : " + getCustId() + "\n" + "	custName : " + getCustName() + "\n" + "	role : " + getRole()
+				+ "\n" + "	mobile : " + getMobile() + "\n" + "	email : " + getEmail() + "\n" + "	city : " + getCity()
+				+ "\n" + "	properties : " + getProperties() + "\n}";
 		return message;
 	}
-	
+
 	public String toString(String str) {
-		String message = " :\n" + "{\n" + "	userId : "
-				+ getUserId() + "\n" + "	password : " + getPassword() + "\n" + "	custId : " + getCustId() + "\n" + "	custName : "
-				+ getCustName() + "\n" + "	role : " + getRole() + "\n" + "	mobile : " + getMobile() + "\n"
-				+ "	email : " + getEmail() + "\n" + "	city : " + getCity() +"\n"+"	properties : "+getProperties()+"\n}";
+		String message = " :\n" + "{\n" + "	userId : " + getUserId() + "\n" + "	password : " + getPassword() + "\n"
+				+ "	custId : " + getCustId() + "\n" + "	custName : " + getCustName() + "\n" + "	role : " + getRole()
+				+ "\n" + "	mobile : " + getMobile() + "\n" + "	email : " + getEmail() + "\n" + "	city : " + getCity()
+				+ "\n" + "	properties : " + getProperties() + "\n}";
 		return message;
 	}
 }

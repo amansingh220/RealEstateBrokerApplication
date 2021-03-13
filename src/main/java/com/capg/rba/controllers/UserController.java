@@ -12,36 +12,40 @@ import com.capg.rba.entities.User;
 import com.capg.rba.services.IUserService;
 
 @RestController
-@RequestMapping(value="/api")//mapping an HTTP request to a method using some basic criteria. with end point "api"
+//mapping an HTTP request to a method using some basic criteria. with end point
+// api
+@RequestMapping(value = "/api")
 public class UserController {
-		@Autowired
-		private IUserService loginService;
-		
-		@PostMapping(value="/login")
-		public ResponseEntity<String> validateLogin(@RequestBody User user){
-			User user1=loginService.login(user);
-			
-			if(user1 != null) {
-				return new ResponseEntity<String>("Login Success",HttpStatus.OK);// return http status and message.
-			}
-			else {
-				return new ResponseEntity<String>("Login Failed, Please Try Again",HttpStatus.NOT_FOUND);//return http status and message.
-			}
+	@Autowired
+	private IUserService loginService;
+
+	@PostMapping(value = "/login")
+	public ResponseEntity<String> validateLogin(@RequestBody User user) {
+		User user1 = loginService.login(user);
+
+		if (user1 != null) {
+			// return http status and message.
+			return new ResponseEntity<String>("Login Success", HttpStatus.OK);
+		} else {
+			// return http status and message.
+			return new ResponseEntity<String>("Login Failed, Please Try Again", HttpStatus.NOT_FOUND);
 		}
-		@Autowired
-		private IUserService logoutService;
-		
-		@PostMapping(value="/logout")
-		public ResponseEntity<String> validateLogout(@RequestBody User user){
-			User user1=logoutService.login(user);
-			
-			if(user1 != null) {
-				return new ResponseEntity<String>("Logout Success",HttpStatus.OK); //return http status and message.
-			}
-			else {
-				return new ResponseEntity<String>("Logout Failed, Please Try Again",HttpStatus.NOT_FOUND);//return http status and message.
-			}
+	}
+
+	@Autowired
+	private IUserService logoutService;
+
+	@PostMapping(value = "/logout")
+	public ResponseEntity<String> validateLogout(@RequestBody User user) {
+		User user1 = logoutService.login(user);
+
+		if (user1 != null) {
+			// return http status and message.
+			return new ResponseEntity<String>("Logout Success", HttpStatus.OK); // return http status and message.
+		} else {
+			// return http status and message.
+			return new ResponseEntity<String>("Logout Failed, Please Try Again", HttpStatus.NOT_FOUND);
 		}
 
 	}
-
+}

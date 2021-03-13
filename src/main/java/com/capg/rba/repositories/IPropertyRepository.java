@@ -10,6 +10,7 @@ import com.capg.rba.entities.PropertyCriteria;
 @Repository
 
 public interface IPropertyRepository {
+	
 	public Property saveProperty(Property property);
 	public Property updateProperty(Property property);
 	public Property deleteProperty(int propId);

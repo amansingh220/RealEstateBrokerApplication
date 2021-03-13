@@ -4,12 +4,11 @@ package com.capg.rba.exceptions;
 @SuppressWarnings("serial")
 public class InvalidBroIdException extends RuntimeException {
 
-	public InvalidBroIdException(String msg)
-	{
+	public InvalidBroIdException(String msg) {
 		super(msg);
 	}
-	public InvalidBroIdException()
-	{
+
+	public InvalidBroIdException() {
 		super();
 	}
 }

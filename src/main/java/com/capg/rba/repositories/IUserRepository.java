@@ -9,4 +9,5 @@ public interface IUserRepository {
 	
 	public User login(User user);
 	public User logout(User user);
+	
 }

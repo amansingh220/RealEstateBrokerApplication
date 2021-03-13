@@ -24,13 +24,13 @@ public class Property {
 	private int propId;
 	private String configuration;
 	private String offerType;
-	
+
 	@Min(value = 1)
 	private double offerCost;
-	
+
 	@Min(value = 1)
 	private double areaSqft;
-	
+
 	private String address;
 	private String street;
 	private String city;

@@ -8,5 +8,5 @@ import lombok.Setter;
 public class DealRequest {
 	private int custId;
 	private int propId;
-	
+
 }

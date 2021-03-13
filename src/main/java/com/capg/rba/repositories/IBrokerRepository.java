@@ -14,5 +14,5 @@ public interface IBrokerRepository {
 	public Broker deleteBroker(int broId);
 	public Broker fetchBroker(int broId);
 	public List<Broker> fetchAllBrokers();
-	
+
 }

@@ -13,6 +13,6 @@ import com.capg.rba.entities.Property;
 public interface IDealRepository {
 
 	public Deal saveDeal(Property property, Customer customer);
-
 	public List<Deal> fetchAllDeals();
+	
 }

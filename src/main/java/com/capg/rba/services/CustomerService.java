@@ -26,7 +26,7 @@ public class CustomerService implements ICustomerService {
 	@Override
 	public Customer addCustomer(Customer customer) {
 		log.info("Service Triggered");
-		
+
 		if (customer.getProperties() != null) {
 			log.error("Customers are not allowed to add property details");
 			throw new CustomerCantAddPropertyException("Customers are not allowed to add property details");
@@ -39,7 +39,7 @@ public class CustomerService implements ICustomerService {
 	@Override
 	public Customer editCustomer(Customer customer) {
 		log.info("Service Triggered");
-		
+
 		if (customer.getProperties() != null) {
 			log.error("Customers are not allowed to add property details");
 			throw new CustomerCantEditPropertyException("Customers are not allowed to edit property details");

@@ -58,12 +58,11 @@ public class PropertyController {
 		List<Property> properties = propertyService.listAllProperties();
 		return new ResponseEntity<List<Property>>(properties, HttpStatus.OK);
 	}
-	
+
 	@GetMapping(value = "/listpropertybycriteria")
 	public ResponseEntity<List<Property>> listPropertyByCriteria(@RequestBody PropertyCriteria criteria) {
 		List<Property> property = propertyService.listPropertyByCriteria(criteria);
 		return new ResponseEntity<List<Property>>(property, HttpStatus.OK);
 	}
-	
-}
 
+}

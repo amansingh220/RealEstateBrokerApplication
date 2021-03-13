@@ -21,14 +21,15 @@ public class PropertyRepository implements IPropertyRepository {
 	// database table.
 	@Override
 	public Property saveProperty(Property property) {
-		if(property.getConfiguration() != "flat" && property.getConfiguration() != "shop" && property.getConfiguration() != "plot") {
+		if (property.getConfiguration().equals("flat") && property.getConfiguration().equals("shop")
+				&& property.getConfiguration().equals("plot")) {
 			throw new InvalidConfigurationException("Configuration can be plot, shop, flat only");
 		}
-		
-		if(property.getOfferType() != "sell" && property.getOfferType() != "rent") {
+
+		if (property.getOfferType().equals("sell") && property.getOfferType().equals("rent")) {
 			throw new InvalidConfigurationException("Offer type can be sell and rent only");
 		}
-		
+
 		property.setStatus(true);
 		Property propertyDetails = propertyRepository.save(property);
 		return propertyDetails;
@@ -38,14 +39,15 @@ public class PropertyRepository implements IPropertyRepository {
 	// database table.
 	@Override
 	public Property updateProperty(Property property) {
-		if(property.getConfiguration() != "flat" && property.getConfiguration() != "shop" && property.getConfiguration() != "plot") {
+		if (property.getConfiguration().equals("flat") && property.getConfiguration().equals("shop")
+				&& property.getConfiguration().equals("plot")) {
 			throw new InvalidConfigurationException("Configuration can be plot, shop, flat only");
 		}
-		
-		if(property.getOfferType() != "sell" && property.getOfferType() != "rent") {
+
+		if (property.getOfferType().equals("sell") && property.getOfferType().equals("rent")) {
 			throw new InvalidConfigurationException("Offer type can be sell and rent only");
 		}
-		
+
 		int propId = property.getPropId();
 		Property propertyDetails = propertyRepository.findById(propId).get();
 
@@ -90,7 +92,7 @@ public class PropertyRepository implements IPropertyRepository {
 		List<Property> properties = propertyRepository
 				.findByConfigurationAndOfferTypeAndCityAndOfferCostBetweenOrderByOfferCostAsc(criteria.getConfig(),
 						criteria.getOffer(), criteria.getCity(), criteria.getMinCost(), criteria.getMaxCost());
-		if(properties.isEmpty()) {
+		if (properties.isEmpty()) {
 			throw new NoPropertyExistException("No match found");
 		}
 		return properties;

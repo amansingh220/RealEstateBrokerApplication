@@ -10,11 +10,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RealEstateBrokerApplication {
 	private final static Logger log = LogManager.getLogger(RealEstateBrokerApplication.class);
-	
+
 	public static void main(String[] args) {
 		log.info("Real Estate Broker Application Started");
 		SpringApplication.run(RealEstateBrokerApplication.class, args);
 	}
-	
 
 }
