@@ -3,6 +3,7 @@ package com.capg.rba.entities;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.Min;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Getter;
@@ -23,8 +24,13 @@ public class Property {
 	private int propId;
 	private String configuration;
 	private String offerType;
+	
+	@Min(value = 1)
 	private double offerCost;
+	
+	@Min(value = 1)
 	private double areaSqft;
+	
 	private String address;
 	private String street;
 	private String city;

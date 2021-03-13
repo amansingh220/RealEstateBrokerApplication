@@ -4,6 +4,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Property;
+import com.capg.rba.entities.PropertyCriteria;
 
 //IPropertyRepository is defined to hold the declarations of repository methods.
 @Repository
@@ -14,7 +15,6 @@ public interface IPropertyRepository {
 	public Property deleteProperty(int propId);
 	public Property fetchProperty(int propId);
 	public List<Property> fetchAllProperties();
-//	public List<Property> fetchPropertyByCriteria(PropertyCriteria criteria);
+	public List<Property> fetchPropertyByCriteria(PropertyCriteria criteria);
 	
-
 }

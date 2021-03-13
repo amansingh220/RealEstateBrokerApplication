@@ -20,8 +20,10 @@ import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.DealsNotFoundException;
 import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
 import com.capg.rba.exceptions.InvalidBroIdException;
+import com.capg.rba.exceptions.InvalidConfigurationException;
 import com.capg.rba.exceptions.InvalidCustIdException;
 import com.capg.rba.exceptions.InvalidEmailException;
+import com.capg.rba.exceptions.InvalidOfferTypeException;
 import com.capg.rba.exceptions.InvalidPasswordException;
 import com.capg.rba.exceptions.InvalidPropIdException;
 import com.capg.rba.exceptions.PropertyAlreadySoldException;
@@ -165,6 +167,24 @@ public class GlobleExceptionHandler {
 	private ResponseEntity<String> handleHttpMessageNotReadableException(HttpMessageNotReadableException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(
 				"Something went wrong, Details are not entered correctely", HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
+	// Handles the exception which is thrown when invalid configuration is entered
+	// by the broker.
+	@ExceptionHandler(InvalidConfigurationException.class)
+	private ResponseEntity<String> handleInvalidConfigurationException(InvalidConfigurationException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
+	// Handles the exception which is thrown when invalid offerType is entered
+	// by the broker.
+	@ExceptionHandler(InvalidOfferTypeException.class)
+	private ResponseEntity<String> handleInvalidOfferTypeException(InvalidOfferTypeException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
 }

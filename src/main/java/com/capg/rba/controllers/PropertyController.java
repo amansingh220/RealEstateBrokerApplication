@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.capg.rba.entities.Property;
-import com.capg.rba.generator.IdGeneration;
+import com.capg.rba.entities.PropertyCriteria;
 import com.capg.rba.services.IPropertyService;
 
 //Controller class for RESTful web services.
@@ -30,16 +30,12 @@ public class PropertyController {
 
 	@PostMapping(value = "/addproperty")
 	public ResponseEntity<Property> addProperty(@RequestBody Property property) {
-	    property.setPropId(IdGeneration.generateId()); 
-		
-		
 		Property property1 = propertyService.addProperty(property);
 		return new ResponseEntity<Property>(property1, HttpStatus.CREATED);
 	}
 
 	@PutMapping(value = "/editproperty/{propId}")
 	public ResponseEntity<Property> editProperty(@RequestBody Property property, @PathVariable int propId) {
-		
 		Property property1 = propertyService.editProperty(property);
 		return new ResponseEntity<Property>(property1, HttpStatus.ACCEPTED);
 	}
@@ -63,12 +59,11 @@ public class PropertyController {
 		return new ResponseEntity<List<Property>>(properties, HttpStatus.OK);
 	}
 	
-	//@GetMapping(value = "/listpropertybycriteria")
-	//public ResponseEntity<List<Property>> listPropertyByCriteria(@RequestBody PropertyCriteria criteria) {
-		//List<Property> property = propertyService.listPropertyByCriteria(criteria);
-		//return new ResponseEntity<List<Property>>(property, HttpStatus.OK);
-	//}
-
-
+	@GetMapping(value = "/listpropertybycriteria")
+	public ResponseEntity<List<Property>> listPropertyByCriteria(@RequestBody PropertyCriteria criteria) {
+		List<Property> property = propertyService.listPropertyByCriteria(criteria);
+		return new ResponseEntity<List<Property>>(property, HttpStatus.OK);
+	}
+	
 }
 

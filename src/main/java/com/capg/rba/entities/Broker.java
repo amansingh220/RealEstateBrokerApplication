@@ -37,7 +37,7 @@ public class Broker extends User {
 
 	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position=3)
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)	
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)	
 	@JoinColumn(name = "broUserId")
 	private List<Property> properties;
 	

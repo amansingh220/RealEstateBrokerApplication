@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.capg.rba.entities.Property;
+import com.capg.rba.entities.PropertyCriteria;
 
 @Service
 public interface IPropertyService {
@@ -13,5 +14,5 @@ public interface IPropertyService {
 	public Property removeProperty(int propId);
 	public Property viewProperty(int propId);
 	public List<Property> listAllProperties();
-//    public List<Property> listPropertyByCriteria(PropertyCriteria criteria);
+    public List<Property> listPropertyByCriteria(PropertyCriteria criteria);
 }

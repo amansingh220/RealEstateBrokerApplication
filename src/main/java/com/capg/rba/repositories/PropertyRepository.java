@@ -1,13 +1,15 @@
 package com.capg.rba.repositories;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Property;
+import com.capg.rba.entities.PropertyCriteria;
+import com.capg.rba.exceptions.InvalidConfigurationException;
 import com.capg.rba.exceptions.InvalidPropIdException;
 import com.capg.rba.exceptions.PropertyNotFoundException;
-
 
 @Repository
 public class PropertyRepository implements IPropertyRepository {
@@ -18,6 +20,15 @@ public class PropertyRepository implements IPropertyRepository {
 	// database table.
 	@Override
 	public Property saveProperty(Property property) {
+		if(property.getConfiguration() != "flat" && property.getConfiguration() != "shop" && property.getConfiguration() != "plot") {
+			throw new InvalidConfigurationException("Configuration can be plot, shop, flat only");
+		}
+		
+		if(property.getOfferType() != "sell" && property.getOfferType() != "rent") {
+			throw new InvalidConfigurationException("Offer type can be sell and rent only");
+		}
+		
+		property.setStatus(true);
 		Property propertyDetails = propertyRepository.save(property);
 		return propertyDetails;
 	}
@@ -26,6 +37,14 @@ public class PropertyRepository implements IPropertyRepository {
 	// database table.
 	@Override
 	public Property updateProperty(Property property) {
+		if(property.getConfiguration() != "flat" && property.getConfiguration() != "shop" && property.getConfiguration() != "plot") {
+			throw new InvalidConfigurationException("Configuration can be plot, shop, flat only");
+		}
+		
+		if(property.getOfferType() != "sell" && property.getOfferType() != "rent") {
+			throw new InvalidConfigurationException("Offer type can be sell and rent only");
+		}
+		
 		int propId = property.getPropId();
 		Property propertyDetails = propertyRepository.findById(propId).get();
 
@@ -62,13 +81,15 @@ public class PropertyRepository implements IPropertyRepository {
 		List<Property> properties = propertyRepository.findAll();
 		return properties;
 	}
-	
-	// fetchPropertyByCriteria gets all property criteria details from respective database table.
-	//@Override
-	//public List<Property> fetchPropertyByCriteria(PropertyCriteria criteria) {
-		
-	//}
-	
 
+	// fetchPropertyByCriteria gets all property criteria details from respective
+	// database table.
+	@Override
+	public List<Property> fetchPropertyByCriteria(PropertyCriteria criteria) {
+		List<Property> properties = propertyRepository
+				.findByConfigurationAndOfferTypeAndCityAndOfferCostBetweenOrderByOfferCostAsc(criteria.getConfig(),
+						criteria.getOffer(), criteria.getCity(), criteria.getMinCost(), criteria.getMaxCost());
+		return properties;
+	}
 
 }
