@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
 import com.capg.rba.exceptions.BrokerNotFoundException;
+import com.capg.rba.exceptions.CustomerCantAddPropertyException;
 import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.DealsNotFoundException;
 import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
@@ -79,6 +80,15 @@ public class GlobleExceptionHandler {
 	// the customer by passing an custId that does not exist in database table.
 	@ExceptionHandler(InvalidCustIdException.class)
 	private ResponseEntity<String> handleInvalidCustIdException(InvalidCustIdException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
+	// Handles exception that is thrown when customer tries to edit or add property
+	// details.
+	@ExceptionHandler(CustomerCantAddPropertyException.class)
+	private ResponseEntity<String> handleCustomerCantAddPropertyException(CustomerCantAddPropertyException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;
