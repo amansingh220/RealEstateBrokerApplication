@@ -50,7 +50,7 @@ public class User {
 	private String mobile;
 	
 	@NotNull(message = "email can not be null")
-	@Pattern(regexp = "^([\\w-\\.]+){1,64}@([\\w&&[^_]]+){2,255}.[a-z]{2,}$", message = "Invalid email address")
+	@Pattern(regexp = "^([\\w-\\.]+){1,64}@([\\w&&[^_]]+){2,255}[.]{1}[a-z]{2,}$", message = "Invalid email address")
 	@ApiModelProperty(notes = "email should be valid", example = "lucky@gmail.com", required = true, position = 5)
 	private String email;
 	

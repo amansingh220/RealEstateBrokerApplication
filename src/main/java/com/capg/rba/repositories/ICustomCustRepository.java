@@ -14,4 +14,7 @@ public interface ICustomCustRepository extends JpaRepository<Customer, Integer> 
 	
 	//This method will delete customer data based on the custId from database.
 	public void deleteByCustId(int custId);
+	
+	//This method will delete customer data based on the email from database.
+	public Customer findByEmail(String email);
 }

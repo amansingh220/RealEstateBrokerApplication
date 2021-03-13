@@ -1,6 +1,5 @@
 package com.capg.rba.controllers;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -19,8 +18,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.capg.rba.entities.Customer;
-import com.capg.rba.entities.Property;
-import com.capg.rba.generator.IdGeneration;
 import com.capg.rba.services.ICustomerService;
 
 import io.swagger.annotations.ApiOperation;
@@ -42,10 +39,6 @@ public class CustomerController {
 	@PostMapping(value = "/addcustomer")
 	public ResponseEntity<String> addCustomer(@RequestBody Customer customer) {
 		log.info("Controller Triggered");
-		List<Property> properties = new ArrayList<Property>();
-		customer.setCustId(IdGeneration.generateId());
-		customer.setProperties(properties);
-		customer.setRole("Customer");
 		Customer customer1 = customerService.addCustomer(customer);
 		return new ResponseEntity<String>("Registration successful, " + customer1.toString(), HttpStatus.CREATED);
 	}
@@ -55,13 +48,10 @@ public class CustomerController {
 	@PutMapping(value = "/editcustomer/{custId}")
 	public ResponseEntity<String> editCustomer(@RequestBody Customer customer, @PathVariable int custId) {
 		log.info("Controller Triggered");
-		List<Property> properties = new ArrayList<Property>();
-//		customer.setProperties(properties);
-		customer.setRole("Customer");
 		customer.setCustId(custId);
 		Customer customer1 = customerService.editCustomer(customer);
 		return new ResponseEntity<String>(
-				"Deatils updated successfully, Updated details are present below" + customer1.toString("msg"),
+				"Deatils updated successfully, Updated details are present below" + customer1.toString(""),
 				HttpStatus.OK);
 	}
 
@@ -72,7 +62,7 @@ public class CustomerController {
 		log.info("Controller Triggered");
 		Customer customer1 = customerService.removeCustomer(custId);
 		return new ResponseEntity<String>(
-				"Customer with below listed details deleted successfully" + customer1.toString("msg"), HttpStatus.OK);
+				"Customer with below listed details deleted successfully" + customer1.toString(""), HttpStatus.OK);
 	}
 
 	// End point to view customer by custId
@@ -81,7 +71,7 @@ public class CustomerController {
 	public ResponseEntity<String> viewCustomer(@PathVariable int custId) {
 		log.info("Controller Triggered");
 		Customer customer = customerService.viewCustomer(custId);
-		return new ResponseEntity<String>("Details of customer" + customer.toString("msg"), HttpStatus.OK);
+		return new ResponseEntity<String>("Details of customer" + customer.toString(""), HttpStatus.OK);
 
 	}
 

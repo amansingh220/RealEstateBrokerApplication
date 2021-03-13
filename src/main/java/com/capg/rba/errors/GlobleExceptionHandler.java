@@ -10,6 +10,7 @@ import javax.validation.ConstraintViolationException;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
@@ -17,6 +18,7 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import com.capg.rba.exceptions.BrokerNotFoundException;
 import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.DealsNotFoundException;
+import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
 import com.capg.rba.exceptions.InvalidBroIdException;
 import com.capg.rba.exceptions.InvalidCustIdException;
 import com.capg.rba.exceptions.InvalidEmailException;
@@ -62,6 +64,15 @@ public class GlobleExceptionHandler {
 		return responseEntity;
 	}
 
+	// Handles user-defined exception that is thrown when we try to insert
+	// the customer whose email exist in database table.
+	@ExceptionHandler(EmailAlreadyRegisteredException.class)
+	private ResponseEntity<String> handleEmailAlreadyRegisteredException(EmailAlreadyRegisteredException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
 	// Handles user-defined exception that is thrown when we try to update
 	// the customer by passing an custId that does not exist in database table.
 	@ExceptionHandler(InvalidCustIdException.class)
@@ -71,6 +82,8 @@ public class GlobleExceptionHandler {
 		return responseEntity;
 	}
 
+	// Handles exception thrown when user enters an invalid email at the time of
+	// login.
 	@ExceptionHandler(InvalidEmailException.class)
 	private ResponseEntity<String> handleInvalidEmailException(InvalidEmailException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
@@ -78,6 +91,8 @@ public class GlobleExceptionHandler {
 		return responseEntity;
 	}
 
+	// Handles exception thrown when user enters an invalid password at the time of
+	// login.
 	@ExceptionHandler(InvalidPasswordException.class)
 	private ResponseEntity<String> handleInvalidPasswordException(InvalidPasswordException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
@@ -135,11 +150,21 @@ public class GlobleExceptionHandler {
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
-	
-		@ExceptionHandler(NoSuchElementException.class)
-		private ResponseEntity<String> handleNoSuchElementException(NoSuchElementException exception) {
-			ResponseEntity<String> responseEntity = new ResponseEntity<String>("Entered custId or propId does not belongs to any customer or property",
-					HttpStatus.BAD_REQUEST);
-			return responseEntity;
-		}
+
+	// Handles exception at the time of dealing the property, if the propId is
+	// incorrect.
+	@ExceptionHandler(NoSuchElementException.class)
+	private ResponseEntity<String> handleNoSuchElementException(NoSuchElementException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(
+				"Entered custId or propId does not belongs to any customer or property", HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
+	// Handles inappropriate inputs from user
+	@ExceptionHandler(HttpMessageNotReadableException.class)
+	private ResponseEntity<String> handleHttpMessageNotReadableException(HttpMessageNotReadableException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(
+				"Something went wrong, Details are not entered correctely", HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
 }

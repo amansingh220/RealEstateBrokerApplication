@@ -32,6 +32,7 @@ public class CustomerServiceTests {
 
 	@BeforeEach
 	public void setup() {
+		System.out.println(customerRepository);
 		Customer customer = new Customer();
 		customer.setCustId(101);
 		customer.setUserId(2245);
