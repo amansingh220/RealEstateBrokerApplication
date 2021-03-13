@@ -17,6 +17,7 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 
 import com.capg.rba.exceptions.BrokerNotFoundException;
 import com.capg.rba.exceptions.CustomerCantAddPropertyException;
+import com.capg.rba.exceptions.CustomerCantEditPropertyException;
 import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.DealsNotFoundException;
 import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
@@ -27,6 +28,7 @@ import com.capg.rba.exceptions.InvalidEmailException;
 import com.capg.rba.exceptions.InvalidOfferTypeException;
 import com.capg.rba.exceptions.InvalidPasswordException;
 import com.capg.rba.exceptions.InvalidPropIdException;
+import com.capg.rba.exceptions.NoPropertyExistException;
 import com.capg.rba.exceptions.PropertyAlreadySoldException;
 import com.capg.rba.exceptions.PropertyNotFoundException;
 
@@ -85,10 +87,20 @@ public class GlobleExceptionHandler {
 		return responseEntity;
 	}
 
-	// Handles exception that is thrown when customer tries to edit or add property
+	// Handles exception that is thrown when customer tries to add property
 	// details.
 	@ExceptionHandler(CustomerCantAddPropertyException.class)
 	private ResponseEntity<String> handleCustomerCantAddPropertyException(CustomerCantAddPropertyException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
+	// Handles exception that is thrown when customer tries to edit property
+	// details.
+	@ExceptionHandler(CustomerCantEditPropertyException.class)
+	private ResponseEntity<String> handleCustomerCantEditPropertyException(
+			CustomerCantEditPropertyException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;
@@ -193,6 +205,15 @@ public class GlobleExceptionHandler {
 	// by the broker.
 	@ExceptionHandler(InvalidOfferTypeException.class)
 	private ResponseEntity<String> handleInvalidOfferTypeException(InvalidOfferTypeException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
+	// Handles the exception which is thrown when search result is empty
+	// by the broker.
+	@ExceptionHandler(NoPropertyExistException.class)
+	private ResponseEntity<String> handleNoPropertyExistException(NoPropertyExistException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(exception.getMessage(),
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;

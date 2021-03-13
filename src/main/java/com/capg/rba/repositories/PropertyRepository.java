@@ -9,6 +9,7 @@ import com.capg.rba.entities.Property;
 import com.capg.rba.entities.PropertyCriteria;
 import com.capg.rba.exceptions.InvalidConfigurationException;
 import com.capg.rba.exceptions.InvalidPropIdException;
+import com.capg.rba.exceptions.NoPropertyExistException;
 import com.capg.rba.exceptions.PropertyNotFoundException;
 
 @Repository
@@ -89,6 +90,9 @@ public class PropertyRepository implements IPropertyRepository {
 		List<Property> properties = propertyRepository
 				.findByConfigurationAndOfferTypeAndCityAndOfferCostBetweenOrderByOfferCostAsc(criteria.getConfig(),
 						criteria.getOffer(), criteria.getCity(), criteria.getMinCost(), criteria.getMaxCost());
+		if(properties.isEmpty()) {
+			throw new NoPropertyExistException("No match found");
+		}
 		return properties;
 	}
 

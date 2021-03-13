@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.capg.rba.entities.Customer;
 import com.capg.rba.exceptions.CustomerCantAddPropertyException;
+import com.capg.rba.exceptions.CustomerCantEditPropertyException;
 import com.capg.rba.repositories.ICustomerRepository;
 
 //CustomerService class provides definition to the methods declared in ICustomerService interface.
@@ -41,7 +42,7 @@ public class CustomerService implements ICustomerService {
 		
 		if (customer.getProperties() != null) {
 			log.error("Customers are not allowed to add property details");
-			throw new CustomerCantAddPropertyException("Customers are not allowed to edit property details");
+			throw new CustomerCantEditPropertyException("Customers are not allowed to edit property details");
 		}
 		Customer customerDetails = customerRepository.updateCustomer(customer);
 		return customerDetails;
