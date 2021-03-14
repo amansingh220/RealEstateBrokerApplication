@@ -64,10 +64,12 @@ public class BrokerRepository implements IBrokerRepository {
 		Broker brokerDetails = fetchBroker(broId);
 		Property property = propertyRepo.findByBroker(brokerDetails);
 		Deal deal = dealRepository.findByProperty(property);
-		property.setBroker(null);
-		deal.setProperty(property);
-		dealRepository.save(deal);
-		propService.editProperty(property);
+		if(deal != null) {
+			property.setBroker(null);
+			deal.setProperty(property);
+			dealRepository.save(deal);
+			propService.editProperty(property);
+		}
 		repository.deleteById(brokerDetails.getUserId());
 		return brokerDetails;
 	}

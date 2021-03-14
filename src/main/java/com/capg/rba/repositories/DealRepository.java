@@ -29,8 +29,8 @@ public class DealRepository implements IDealRepository {
 	@Autowired
 	ICustomDealRepository repository;
 
-//	@Autowired
-//	ICustomerRepository custRepository;
+	// @Autowired
+	// ICustomerRepository custRepository;
 
 	// SaveDeal method insert the deal details in database table
 	@Override
@@ -42,9 +42,7 @@ public class DealRepository implements IDealRepository {
 		if (!property1.isStatus()) {
 			throw new PropertyAlreadySoldException("Property with Id " + property1.getPropId() + " is already sold");
 		} else {
-
 			double dealCost = property1.getOfferCost();
-
 			Deal deal = new Deal(dealDate, dealCost, customer1, property1);
 			Deal dealDetails = repository.save(deal);
 			customer1.getProperties().add(property1);

@@ -36,7 +36,7 @@ public class RbaBrokerController {
 	@Autowired
 	IBrokerService bService;
 
-	// endpoint for inserting broker
+	// end point for inserting broker
 	@PostMapping(value = "/addbroker")
 	public ResponseEntity<String> addBroker(@RequestBody Broker broker) {
 		log.info("Controller Triggered");
@@ -64,21 +64,19 @@ public class RbaBrokerController {
 
 	// endpoint for deleting broker
 	@DeleteMapping(value = "/removebroker/{broId}")
-	public ResponseEntity<String> removeBroker(@PathVariable int broId) {
+	public ResponseEntity<Broker> removeBroker(@PathVariable int broId) {
 		log.info("Controller Triggered");
 		Broker broker1 = bService.removeBroker(broId);
 		log.info("broker details deleted successfully");
-		return new ResponseEntity<String>(
-				"Deletion SUCCESSFUL and The details of broker which is deleted are :: " + broker1.toString(""),
-				HttpStatus.CREATED);
+		return new ResponseEntity<Broker>(broker1, HttpStatus.CREATED);
 	}
 
 	// endpoint for viewing broker
 	@GetMapping(value = "/viewbroker/{broId}")
-	public ResponseEntity<String> viewBroker(@PathVariable int broId) {
+	public ResponseEntity<Broker> viewBroker(@PathVariable int broId) {
 		log.info("Controller Triggered");
 		Broker broker = bService.viewBroker(broId);
-		return new ResponseEntity<String>("The details of Broker as follows : " + broker, HttpStatus.OK);
+		return new ResponseEntity<Broker>(broker, HttpStatus.OK);
 
 	}
 
