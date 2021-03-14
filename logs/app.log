@@ -2464,3 +2464,155 @@
 [INFO ] 2021-03-14 18:52:06.234 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
 [INFO ] 2021-03-14 18:52:35.755 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 81 
 [INFO ] 2021-03-14 18:52:35.755 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 18:56:18.062 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 18:56:18.254 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 18:56:18.684 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8800 (C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code\bin\main started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 18:56:18.688 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 18:56:18.688 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 18:58:07.593 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerControllerTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8120 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 18:58:07.597 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 18:58:07.599 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 18:58:14.037 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerControllerTests in 6.774 seconds (JVM running for 8.294) at Line 61 
+[INFO ] 2021-03-14 18:58:14.353 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-14 18:58:14.447 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 18:58:14.466 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 81 
+[INFO ] 2021-03-14 18:58:14.500 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 71 
+[INFO ] 2021-03-14 18:58:14.517 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 18:58:25.367 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8448 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 18:58:25.371 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 18:58:25.372 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 18:58:31.607 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.457 seconds (JVM running for 7.714) at Line 61 
+[INFO ] 2021-03-14 18:58:31.671 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 18:58:31.703 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 18:58:31.719 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 18:58:31.741 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 18:58:31.757 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 18:58:31.776 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 18:58:31.787 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:00:42.188 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 12212 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:00:42.191 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:00:42.192 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:00:48.518 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.572 seconds (JVM running for 7.915) at Line 61 
+[INFO ] 2021-03-14 19:00:48.570 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[ERROR] 2021-03-14 19:00:48.571 ERROR :com.capg.rba.services.CustomerService[addCustomer] Customers are not allowed to add property details at Line 31 
+[INFO ] 2021-03-14 19:00:48.595 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:00:48.607 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:00:48.627 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:00:48.641 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:00:48.655 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:00:48.662 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:01:39.593 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 5464 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:01:39.596 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:01:39.598 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:01:46.065 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.695 seconds (JVM running for 7.997) at Line 61 
+[INFO ] 2021-03-14 19:01:46.118 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:01:46.141 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:01:46.155 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:01:46.166 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:01:46.176 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:01:46.184 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:01:46.192 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:02:20.736 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 17500 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:02:20.740 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:02:20.742 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:02:27.330 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.822 seconds (JVM running for 8.127) at Line 61 
+[INFO ] 2021-03-14 19:02:27.385 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:02:27.416 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:02:27.427 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:02:27.442 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:02:27.459 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:02:27.469 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:02:27.480 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:03:25.778 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8756 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:03:25.781 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:03:25.783 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:03:32.232 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.66 seconds (JVM running for 7.94) at Line 61 
+[INFO ] 2021-03-14 19:03:32.290 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:03:32.314 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:03:32.323 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:03:32.333 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 19:03:32.334 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 44 
+[INFO ] 2021-03-14 19:03:32.350 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:03:32.370 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:03:32.380 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:05:49.169 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 18844 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:05:49.172 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:05:49.173 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:05:55.402 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.432 seconds (JVM running for 7.721) at Line 61 
+[INFO ] 2021-03-14 19:05:55.457 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:05:55.489 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:05:55.500 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:05:55.511 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 19:05:55.512 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 44 
+[INFO ] 2021-03-14 19:05:55.530 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:05:55.539 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:05:55.545 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:07:55.272 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 5284 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:07:55.275 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:07:55.277 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:08:02.153 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 7.088 seconds (JVM running for 8.368) at Line 61 
+[INFO ] 2021-03-14 19:08:02.222 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:08:02.248 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:08:02.257 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:08:02.267 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 19:08:02.268 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 44 
+[INFO ] 2021-03-14 19:08:02.283 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:08:02.294 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:08:02.306 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:15:20.006 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 18544 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:15:20.009 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:15:20.011 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:15:26.298 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.512 seconds (JVM running for 7.788) at Line 61 
+[INFO ] 2021-03-14 19:15:26.353 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:15:26.377 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:15:26.385 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:15:26.395 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 19:15:26.396 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 44 
+[INFO ] 2021-03-14 19:15:26.408 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:15:26.417 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:15:26.427 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:16:07.385 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8772 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:16:07.389 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:16:07.390 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:16:13.633 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.459 seconds (JVM running for 7.736) at Line 61 
+[INFO ] 2021-03-14 19:16:13.681 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:16:13.703 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:16:13.712 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:16:13.724 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 19:16:13.725 ERROR :com.capg.rba.services.CustomerService[editCustomer] Customers are not allowed to add property details at Line 44 
+[INFO ] 2021-03-14 19:16:13.738 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:16:13.746 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:16:13.754 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:16:53.911 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 8568 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:16:53.914 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:16:53.916 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:17:00.139 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.439 seconds (JVM running for 7.686) at Line 61 
+[INFO ] 2021-03-14 19:17:00.197 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:17:00.220 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:17:00.228 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:17:00.237 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:17:00.248 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:17:00.258 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:17:00.268 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:19:37.077 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 17952 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:19:37.083 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:19:37.086 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:19:43.763 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.984 seconds (JVM running for 8.422) at Line 61 
+[INFO ] 2021-03-14 19:19:43.817 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:19:43.838 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:19:43.846 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:19:43.859 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:19:43.869 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:19:43.880 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:19:43.891 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 19:20:55.488 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting CustomerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 17516 (started by Aman Thakur in C:\Users\Aman Thakur\Downloads\RealEstateBrokerApplication-Integreted_Code (1)\RealEstateBrokerApplication-Integreted_Code) at Line 55 
+[DEBUG] 2021-03-14 19:20:55.491 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 19:20:55.492 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 19:21:01.924 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started CustomerServiceTests in 6.636 seconds (JVM running for 7.867) at Line 61 
+[INFO ] 2021-03-14 19:21:01.974 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 19:21:01.994 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:21:02.004 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 19:21:02.015 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 19:21:02.023 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:21:02.029 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 19:21:02.037 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 

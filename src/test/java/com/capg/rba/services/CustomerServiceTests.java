@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,12 +26,87 @@ public class CustomerServiceTests {
 	@MockBean
 	private CustomerRepository customerRepository;
 
-	private Customer customer;
-	private Customer customer1;
+	// Test method to test functionality of addCustomer Method.
+	@Test
+	public void testAddcustomer() {
+		Customer customer = new Customer();
+		customer.setCustId(101);
+		customer.setUserId(2245);
+		customer.setCustName("Aman Singh");
+		customer.setCity("Lucknow");
+		customer.setEmail("aman.singh@gmail.com");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
+		customer.setRole("Customer");
 
-	@BeforeEach
-	public void setup() {
-		System.out.println(customerRepository);
+		Mockito.when(customerRepository.saveCustomer(customer)).thenReturn(customer);
+		Customer customer2 = customerService.addCustomer(customer);
+		Assertions.assertEquals(customer, customer2);
+	}
+
+	// Test method to test functionality of editCustomer Method.
+	@Test
+	public void testEditCustomer() {
+		Customer customer = new Customer();
+		customer.setCustId(101);
+		customer.setUserId(2245);
+		customer.setCustName("Aman Singh");
+		customer.setCity("Lucknow");
+		customer.setEmail("aman.singh@gmail.com");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
+		customer.setRole("Customer");
+
+		Mockito.when(customerRepository.updateCustomer(customer)).thenReturn(customer);
+		Customer customer2 = customerService.editCustomer(customer);
+		Assertions.assertEquals(customer, customer2);
+
+	}
+
+	// Test method to test functionality of removeCustomer Method.
+	@Test
+	public void testRemoveCustomer() {
+		int custId = 101;
+		Customer customer = new Customer();
+		customer.setCustId(101);
+		customer.setUserId(2245);
+		customer.setCustName("Aman Singh");
+		customer.setCity("Lucknow");
+		customer.setEmail("aman.singh@gmail.com");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
+		customer.setProperties(new ArrayList<Property>());
+		customer.setRole("Customer");
+
+		Mockito.when(customerRepository.deleteCustomer(custId)).thenReturn(customer);
+		Customer customer2 = customerService.removeCustomer(custId);
+		Assertions.assertEquals(customer, customer2);
+
+	}
+
+	// Test method to test functionality of viewCustomer Method.
+	@Test
+	public void testViewCustomer() {
+		int custId = 101;
+		Customer customer = new Customer();
+		customer.setCustId(101);
+		customer.setUserId(2245);
+		customer.setCustName("Aman Singh");
+		customer.setCity("Lucknow");
+		customer.setEmail("aman.singh@gmail.com");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
+		customer.setProperties(new ArrayList<Property>());
+		customer.setRole("Customer");
+
+		Mockito.when(customerRepository.fetchCustomer(custId)).thenReturn(customer);
+		Customer customer2 = customerService.viewCustomer(custId);
+		Assertions.assertEquals(customer, customer2);
+	}
+
+	// Test method to test functionality of listAllCustomers Method.
+	@Test
+	public void testListAllCustomers() {
 		Customer customer = new Customer();
 		customer.setCustId(101);
 		customer.setUserId(2245);
@@ -54,49 +128,7 @@ public class CustomerServiceTests {
 		customer1.setPassword("abcd9po856@#452");
 		customer1.setProperties(new ArrayList<Property>());
 		customer1.setRole("Customer");
-	}
 
-	// Test method to test functionality of addCustomer Method.
-	@Test
-	public void testAddcustomer() {
-		Mockito.when(customerRepository.saveCustomer(customer)).thenReturn(customer);
-		Customer customer2 = customerService.addCustomer(customer);
-		Assertions.assertEquals(customer, customer2);
-	}
-
-	// Test method to test functionality of editCustomer Method.
-	@Test
-	public void testEditCustomer() {
-		Mockito.when(customerRepository.updateCustomer(customer)).thenReturn(customer);
-		Customer customer2 = customerService.editCustomer(customer);
-		Assertions.assertEquals(customer, customer2);
-
-	}
-
-	// Test method to test functionality of removeCustomer Method.
-	@Test
-	public void testRemoveCustomer() {
-		int custId = 101;
-
-		Mockito.when(customerRepository.deleteCustomer(custId)).thenReturn(customer);
-		Customer customer2 = customerService.removeCustomer(custId);
-		Assertions.assertEquals(customer, customer2);
-
-	}
-
-	// Test method to test functionality of viewCustomer Method.
-	@Test
-	public void testViewCustomer() {
-		int custId = 101;
-
-		Mockito.when(customerRepository.fetchCustomer(custId)).thenReturn(customer);
-		Customer customer2 = customerService.viewCustomer(custId);
-		Assertions.assertEquals(customer, customer2);
-	}
-
-	// Test method to test functionality of listAllCustomers Method.
-	@Test
-	public void testListAllCustomers() {
 		List<Customer> customers = new ArrayList<Customer>();
 		customers.add(customer1);
 		customers.add(customer);
@@ -111,6 +143,16 @@ public class CustomerServiceTests {
 	// method.
 	@Test
 	public void testEditCustomerInvalidCustIdException() {
+		Customer customer = new Customer();
+		customer.setCustId(101);
+		customer.setUserId(2245);
+		customer.setCustName("Aman Singh");
+		customer.setCity("Lucknow");
+		customer.setEmail("aman.singh@gmail.com");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
+		customer.setRole("Customer");
+
 		Mockito.when(customerRepository.updateCustomer(customer)).thenThrow(new InvalidCustIdException());
 		Assertions.assertThrows(InvalidCustIdException.class, () -> customerService.editCustomer(customer));
 
@@ -119,6 +161,16 @@ public class CustomerServiceTests {
 	// Test method to test if CustomerNotFoundException is thrown.
 	@Test
 	public void testFetchCustomerCustomerNotFoundException() {
+		Customer customer = new Customer();
+		customer.setCustId(101);
+		customer.setUserId(2245);
+		customer.setCustName("Aman Singh");
+		customer.setCity("Lucknow");
+		customer.setEmail("aman.singh@gmail.com");
+		customer.setMobile("8460694337");
+		customer.setPassword("abcd9856@#452");
+		customer.setProperties(new ArrayList<Property>());
+		customer.setRole("Customer");
 		int CustId = 105;
 
 		Mockito.when(customerRepository.fetchCustomer(CustId)).thenThrow(new CustomerNotFoundException());
