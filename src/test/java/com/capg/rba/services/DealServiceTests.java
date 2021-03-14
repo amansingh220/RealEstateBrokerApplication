@@ -43,7 +43,6 @@ public class DealServiceTests {
 		deal.setDealCost(200000);
 		Customer cust = new Customer();
 		cust.setCustId(1);
-		deal.setCustomer(cust);
 		Property prop = new Property();
 		prop.setPropId(12);
 		deal.setProperty(prop);
@@ -54,7 +53,6 @@ public class DealServiceTests {
 		deal2.setDealCost(20000045);
 		Customer cust1 = new Customer();
 		cust1.setCustId(45);
-		deal2.setCustomer(cust1);
 		Property prop1 = new Property();
 		prop1.setPropId(125);
 		deal2.setProperty(prop1);

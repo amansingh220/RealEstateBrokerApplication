@@ -2315,3 +2315,54 @@
 [DEBUG] 2021-03-14 15:18:09.758 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
 [INFO ] 2021-03-14 15:18:09.758 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
 [INFO ] 2021-03-14 15:18:11.119 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.383 seconds (JVM running for 3635.414) at Line 61 
+[INFO ] 2021-03-14 15:23:33.993 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting BrokerServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 18920 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:23:33.997 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:23:34.000 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:23:40.112 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started BrokerServiceTests in 6.323 seconds (JVM running for 8.195) at Line 61 
+[INFO ] 2021-03-14 15:23:40.166 INFO :com.capg.rba.services.BrokerService[removeBroker] Service Triggered at Line 43 
+[INFO ] 2021-03-14 15:23:40.190 INFO :com.capg.rba.services.BrokerService[editBroker] Service Triggered at Line 35 
+[INFO ] 2021-03-14 15:23:40.203 INFO :com.capg.rba.services.BrokerService[editBroker] Service Triggered at Line 35 
+[INFO ] 2021-03-14 15:23:40.212 INFO :com.capg.rba.services.BrokerService[listAllBrokers] Service Triggered at Line 59 
+[INFO ] 2021-03-14 15:23:40.220 INFO :com.capg.rba.services.BrokerService[viewBroker] Service Triggered at Line 51 
+[INFO ] 2021-03-14 15:23:40.229 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 15:23:40.236 INFO :com.capg.rba.services.BrokerService[viewBroker] Service Triggered at Line 51 
+[INFO ] 2021-03-14 15:23:54.702 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting DealServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 10248 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:23:54.706 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:23:54.709 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:24:00.799 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started DealServiceTests in 6.363 seconds (JVM running for 7.638) at Line 61 
+[INFO ] 2021-03-14 15:24:20.648 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting LoginServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2692 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:24:20.651 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:24:20.652 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:24:26.545 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started LoginServiceTests in 6.1 seconds (JVM running for 7.302) at Line 61 
+[INFO ] 2021-03-14 15:24:49.459 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting DealServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 15864 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:24:49.461 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:24:49.462 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:24:55.443 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started DealServiceTests in 6.177 seconds (JVM running for 7.367) at Line 61 
+[INFO ] 2021-03-14 15:25:08.548 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 10260 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:25:08.551 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:25:08.552 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:25:14.380 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.041 seconds (JVM running for 7.225) at Line 61 
+[INFO ] 2021-03-14 15:26:20.673 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 19172 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:26:20.676 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:26:20.677 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:26:26.739 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.255 seconds (JVM running for 7.496) at Line 61 
+[INFO ] 2021-03-14 15:28:45.666 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 19264 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:28:45.669 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:28:45.671 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:28:51.798 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.325 seconds (JVM running for 7.625) at Line 61 
+[INFO ] 2021-03-14 15:29:01.034 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2088 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:29:01.037 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:29:01.038 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:29:07.399 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.562 seconds (JVM running for 7.763) at Line 61 
+[INFO ] 2021-03-14 15:30:32.994 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 5008 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:30:32.997 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:30:32.998 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:30:38.941 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.17 seconds (JVM running for 7.379) at Line 61 
+[INFO ] 2021-03-14 15:31:07.892 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 1220 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:31:07.894 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:31:07.896 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:31:13.831 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.17 seconds (JVM running for 7.383) at Line 61 
+[INFO ] 2021-03-14 15:32:05.007 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting PropertyServiceTests using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 14464 (started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:32:05.009 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:32:05.010 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:32:11.000 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started PropertyServiceTests in 6.181 seconds (JVM running for 7.366) at Line 61 
