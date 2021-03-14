@@ -66,6 +66,7 @@ public class BrokerRepository implements IBrokerRepository {
 		Deal deal = dealRepository.findByProperty(property);
 		if(deal != null) {
 			property.setBroker(null);
+			property.setStatus(false);
 			deal.setProperty(property);
 			dealRepository.save(deal);
 			propService.editProperty(property);
