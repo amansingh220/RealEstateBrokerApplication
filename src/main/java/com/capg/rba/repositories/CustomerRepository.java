@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Customer;
+import com.capg.rba.entities.Deal;
 import com.capg.rba.entities.Property;
 import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
@@ -27,7 +28,7 @@ public class CustomerRepository implements ICustomerRepository {
 
 	@Autowired
 	private ICustomCustRepository customerRepository;
-
+	
 	// saveCustomer method inserts the customer details in to the respective
 	// database table.
 	@Override
@@ -68,7 +69,6 @@ public class CustomerRepository implements ICustomerRepository {
 	@Override
 	public Customer deleteCustomer(int custId) {
 		Customer customerDetails = fetchCustomer(custId);
-
 		customerRepository.deleteByCustId(custId);
 		return customerDetails;
 	}

@@ -1755,3 +1755,563 @@
 [DEBUG] 2021-03-14 03:46:32.308 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
 [INFO ] 2021-03-14 03:46:32.309 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
 [INFO ] 2021-03-14 03:46:34.212 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.93 seconds (JVM running for 160.638) at Line 61 
+[INFO ] 2021-03-14 12:03:19.277 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:03:19.589 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:03:20.239 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 6064 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:03:20.245 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:03:20.247 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:15:14.582 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:15:14.805 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:15:15.306 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 9244 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:15:15.310 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:15:15.312 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:15:23.150 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 8.33 seconds (JVM running for 9.648) at Line 61 
+[INFO ] 2021-03-14 12:15:50.082 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:15:50.083 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:16:03.010 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 12:16:03.010 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 12:16:08.541 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 12:16:08.541 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 12:17:57.156 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 12:17:57.156 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 12:18:02.886 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 12:18:02.886 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 12:34:37.859 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:34:37.868 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:34:37.978 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 9244 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:34:37.979 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:34:37.979 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:34:38.370 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:34:39.308 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 19024 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:34:39.315 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:34:39.316 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:34:43.048 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 5.181 seconds (JVM running for 1169.545) at Line 61 
+[INFO ] 2021-03-14 12:34:54.571 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:34:54.791 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:34:59.890 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:35:00.106 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:35:00.555 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16512 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:35:00.559 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:35:00.560 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:35:43.823 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:35:44.063 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:35:45.225 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:35:45.291 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:35:45.291 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:35:53.426 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 9.348 seconds (JVM running for 10.799) at Line 61 
+[INFO ] 2021-03-14 12:38:09.409 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:38:09.477 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:38:09.478 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:38:09.479 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:38:12.036 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.62 seconds (JVM running for 149.41) at Line 61 
+[INFO ] 2021-03-14 12:39:20.858 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:39:20.919 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:39:20.919 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:39:20.920 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:39:23.544 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.679 seconds (JVM running for 220.917) at Line 61 
+[INFO ] 2021-03-14 12:40:52.819 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 12:40:52.821 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 12:44:39.473 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:44:39.473 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:44:44.801 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 12:44:44.802 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 12:44:47.778 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:44:47.778 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:45:26.927 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 12:46:28.446 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:46:28.446 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:46:49.507 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-14 12:46:49.507 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 12:46:49.510 ERROR :com.capg.rba.repositories.CustomerRepository[updateCustomer] Customer Id 371 is invalid. at Line 60 
+[INFO ] 2021-03-14 12:46:53.994 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-14 12:46:53.994 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[INFO ] 2021-03-14 12:47:04.943 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 12:47:04.943 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 12:47:10.530 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:47:10.530 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:51:07.837 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:51:07.897 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:51:07.898 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:51:07.898 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:51:10.136 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.293 seconds (JVM running for 927.509) at Line 61 
+[INFO ] 2021-03-14 12:51:53.220 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:51:53.313 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:51:53.314 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:51:53.315 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:51:56.250 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:51:56.303 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:51:56.304 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:51:56.304 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:51:58.218 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.959 seconds (JVM running for 975.592) at Line 61 
+[INFO ] 2021-03-14 12:54:47.317 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:54:47.362 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:54:47.362 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:54:47.363 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:54:49.174 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.85 seconds (JVM running for 1146.547) at Line 61 
+[INFO ] 2021-03-14 12:55:42.743 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:55:42.786 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:55:42.787 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:55:42.787 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:55:44.671 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.921 seconds (JVM running for 1202.044) at Line 61 
+[INFO ] 2021-03-14 12:56:14.716 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:56:14.752 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:56:14.753 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:56:14.753 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:56:29.561 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 12:56:29.601 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 12:56:29.601 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 12:56:29.601 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 12:56:31.314 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.744 seconds (JVM running for 1248.687) at Line 61 
+[INFO ] 2021-03-14 12:56:57.392 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 12:56:57.393 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 12:57:39.153 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:57:39.154 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:57:42.180 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 12:57:42.180 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 12:57:56.554 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 12:59:27.962 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 12:59:27.962 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 12:59:39.790 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 12:59:39.790 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:00:54.662 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:00:54.700 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:00:54.700 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:00:54.701 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:01:01.687 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:01:01.725 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:01:01.725 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:01:01.725 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:01:03.352 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.659 seconds (JVM running for 1520.725) at Line 61 
+[INFO ] 2021-03-14 13:01:41.902 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:01:41.902 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:01:57.531 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:01:57.531 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:02:21.717 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:02:28.599 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:02:28.599 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:02:51.101 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:02:51.138 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:02:51.138 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:02:51.138 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:02:52.703 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.596 seconds (JVM running for 1630.077) at Line 61 
+[INFO ] 2021-03-14 13:03:04.867 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:03:04.867 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:03:10.129 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:03:10.129 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:03:27.186 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:03:33.513 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:03:33.513 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:04:11.991 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:04:12.028 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2532 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:04:12.028 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:04:12.028 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:04:13.646 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.65 seconds (JVM running for 1711.019) at Line 61 
+[INFO ] 2021-03-14 13:05:41.916 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:05:42.135 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:05:42.688 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:05:42.693 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:05:42.694 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:05:50.168 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 8.02 seconds (JVM running for 9.279) at Line 61 
+[INFO ] 2021-03-14 13:06:07.393 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:06:07.394 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:06:14.508 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:06:14.509 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:06:28.760 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:06:35.018 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:06:35.018 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:08:29.636 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:08:29.711 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:08:29.713 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:08:29.713 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:08:32.316 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.673 seconds (JVM running for 171.426) at Line 61 
+[INFO ] 2021-03-14 13:08:47.809 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:08:47.883 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:08:47.884 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:08:47.885 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:08:50.090 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.273 seconds (JVM running for 189.201) at Line 61 
+[INFO ] 2021-03-14 13:08:56.270 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:08:56.270 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[ERROR] 2021-03-14 13:08:56.282 ERROR :com.capg.rba.repositories.CustomerRepository[fetchCustomer] Customer With 505 Does Not Exist. at Line 87 
+[INFO ] 2021-03-14 13:09:22.340 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:09:22.341 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:09:37.820 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[ERROR] 2021-03-14 13:09:37.822 ERROR :com.capg.rba.repositories.CustomerRepository[fetchCustomer] Customer With 505 Does Not Exist. at Line 87 
+[INFO ] 2021-03-14 13:09:45.055 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:09:45.055 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:09:56.107 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:10:02.824 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:10:02.824 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:10:49.083 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:10:49.135 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:10:49.136 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:10:49.137 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:10:51.235 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.146 seconds (JVM running for 310.345) at Line 61 
+[INFO ] 2021-03-14 13:10:58.794 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:10:58.794 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:11:05.598 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:11:05.598 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:11:23.457 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:11:32.314 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:11:32.314 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:14:35.488 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:14:35.535 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:14:35.536 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:14:35.536 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:14:37.557 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.064 seconds (JVM running for 536.668) at Line 61 
+[INFO ] 2021-03-14 13:14:44.444 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:14:44.445 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:14:49.130 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:14:49.131 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:15:10.310 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:15:16.365 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:15:16.365 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:17:10.010 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:17:10.049 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:17:10.049 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:17:10.050 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:17:27.284 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:17:27.322 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:17:27.322 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:17:27.323 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:18:18.234 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:18:18.277 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:18:18.277 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:18:18.278 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:21:41.639 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:21:41.674 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:21:41.675 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:21:41.675 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:22:59.170 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:22:59.205 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:22:59.206 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:22:59.206 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:28:01.176 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:28:01.215 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:28:01.216 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:28:01.216 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:30:17.000 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:30:17.036 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:30:17.037 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:30:17.037 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:30:18.710 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.706 seconds (JVM running for 1477.821) at Line 61 
+[INFO ] 2021-03-14 13:30:46.689 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:30:46.732 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:30:46.733 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:30:46.733 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:30:48.363 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.667 seconds (JVM running for 1507.473) at Line 61 
+[INFO ] 2021-03-14 13:31:37.893 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:31:37.930 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:31:37.930 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:31:37.930 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:31:39.456 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.558 seconds (JVM running for 1558.567) at Line 61 
+[INFO ] 2021-03-14 13:31:57.424 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:31:57.425 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:32:04.015 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:32:04.015 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:32:14.207 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:32:26.661 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:32:26.662 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:34:12.550 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:34:12.664 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16688 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:34:12.665 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:34:12.666 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:35:13.282 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:35:13.528 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:35:14.090 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:35:14.095 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:35:14.097 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:35:22.273 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 8.729 seconds (JVM running for 10.203) at Line 61 
+[INFO ] 2021-03-14 13:35:29.888 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:35:29.889 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:35:36.454 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:35:36.454 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:35:47.129 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:35:56.686 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:35:56.687 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:38:21.457 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:38:21.541 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:38:21.542 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:38:21.543 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:38:24.122 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.656 seconds (JVM running for 192.052) at Line 61 
+[INFO ] 2021-03-14 13:38:31.104 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:38:31.105 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:38:33.204 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:38:33.205 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:38:49.285 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:38:55.205 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:38:55.206 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:39:39.509 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:39:39.617 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:39:39.618 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:39:39.618 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:39:42.179 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.653 seconds (JVM running for 270.109) at Line 61 
+[INFO ] 2021-03-14 13:39:50.034 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:39:50.036 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:39:54.492 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:39:54.493 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:40:04.161 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:40:09.405 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:40:09.406 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:41:02.681 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:41:02.800 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:41:02.801 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:41:02.802 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:41:04.970 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.276 seconds (JVM running for 352.9) at Line 61 
+[INFO ] 2021-03-14 13:41:13.771 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:41:13.772 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:41:16.928 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:41:16.929 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:41:29.799 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:41:37.816 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:41:37.817 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:42:27.784 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:42:27.904 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:42:27.905 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:42:27.905 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:42:29.952 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.15 seconds (JVM running for 437.882) at Line 61 
+[INFO ] 2021-03-14 13:42:46.327 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:42:46.327 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:42:50.026 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-14 13:42:50.026 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 13:42:50.034 ERROR :com.capg.rba.repositories.CustomerRepository[updateCustomer] Customer Id 592 is invalid. at Line 57 
+[INFO ] 2021-03-14 13:42:53.494 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:42:53.495 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:43:08.276 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:43:17.103 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:43:17.104 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:47:20.569 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 13:47:20.569 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 13:47:23.934 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:47:23.934 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:47:27.563 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:47:27.564 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:47:51.131 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 13:47:51.132 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 13:47:58.425 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:48:13.447 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:48:36.669 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 13:48:36.670 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 13:49:04.893 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-14 13:49:04.894 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:50:03.867 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:50:03.907 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:50:03.908 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:50:03.908 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:50:05.777 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.905 seconds (JVM running for 893.707) at Line 61 
+[INFO ] 2021-03-14 13:50:14.293 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:50:14.293 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:50:17.216 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:50:17.216 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:50:34.097 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:50:41.265 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:50:41.266 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:51:39.688 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 82 
+[INFO ] 2021-03-14 13:51:39.689 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 13:51:50.150 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 13:51:50.150 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 13:54:21.348 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:54:21.348 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:54:42.358 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-14 13:54:42.358 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:55:43.372 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:55:43.423 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:55:43.424 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:55:43.424 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:55:45.242 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.865 seconds (JVM running for 1233.172) at Line 61 
+[INFO ] 2021-03-14 13:55:54.911 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:55:54.911 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:55:58.011 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:55:58.011 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:56:03.590 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[ERROR] 2021-03-14 13:56:03.596 ERROR :com.capg.rba.repositories.CustomerRepository[fetchCustomer] Customer With 487 Does Not Exist. at Line 82 
+[INFO ] 2021-03-14 13:56:16.720 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:56:39.550 INFO :com.capg.rba.controllers.CustomerController[listAllCustomers] Controller Triggered at Line 83 
+[INFO ] 2021-03-14 13:56:39.550 INFO :com.capg.rba.services.CustomerService[listAllCustomers] Service Triggered at Line 70 
+[INFO ] 2021-03-14 13:56:50.758 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-14 13:56:50.758 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:58:29.506 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:58:29.541 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:58:29.541 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:58:29.541 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:58:31.166 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.655 seconds (JVM running for 1399.096) at Line 61 
+[INFO ] 2021-03-14 13:58:38.430 INFO :com.capg.rba.controllers.CustomerController[addCustomer] Controller Triggered at Line 41 
+[INFO ] 2021-03-14 13:58:38.431 INFO :com.capg.rba.services.CustomerService[addCustomer] Service Triggered at Line 28 
+[INFO ] 2021-03-14 13:58:45.198 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 13:58:45.198 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 13:59:00.102 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:59:09.827 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-14 13:59:09.827 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 13:59:27.502 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:59:27.541 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:59:27.542 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:59:27.546 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:59:29.826 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.317 seconds (JVM running for 1457.756) at Line 61 
+[INFO ] 2021-03-14 13:59:50.522 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 13:59:50.560 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 13:59:50.560 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 13:59:50.561 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 13:59:52.639 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.111 seconds (JVM running for 1480.568) at Line 61 
+[INFO ] 2021-03-14 13:59:57.829 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 72 
+[INFO ] 2021-03-14 13:59:57.830 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 14:01:03.134 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:01:03.172 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:01:03.172 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:01:03.172 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:01:05.290 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.152 seconds (JVM running for 1553.22) at Line 61 
+[INFO ] 2021-03-14 14:01:13.103 INFO :com.capg.rba.controllers.CustomerController[viewCustomer] Controller Triggered at Line 71 
+[INFO ] 2021-03-14 14:01:13.104 INFO :com.capg.rba.services.CustomerService[viewCustomer] Service Triggered at Line 62 
+[INFO ] 2021-03-14 14:01:22.503 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 14:01:22.503 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 14:01:45.270 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:01:45.307 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:01:45.308 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:01:45.308 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:01:47.306 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.031 seconds (JVM running for 1595.236) at Line 61 
+[INFO ] 2021-03-14 14:01:52.546 INFO :com.capg.rba.controllers.CustomerController[removeCustomer] Controller Triggered at Line 62 
+[INFO ] 2021-03-14 14:01:52.546 INFO :com.capg.rba.services.CustomerService[removeCustomer] Service Triggered at Line 54 
+[INFO ] 2021-03-14 14:03:13.285 INFO :com.capg.rba.controllers.RbaBrokerController[removeBroker] Controller Triggered at Line 68 
+[INFO ] 2021-03-14 14:03:13.286 INFO :com.capg.rba.services.BrokerService[removeBroker] Service Triggered at Line 43 
+[INFO ] 2021-03-14 14:04:30.405 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:04:30.440 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:04:30.441 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:04:30.441 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:04:32.438 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.028 seconds (JVM running for 1760.367) at Line 61 
+[INFO ] 2021-03-14 14:04:39.040 INFO :com.capg.rba.controllers.RbaBrokerController[removeBroker] Controller Triggered at Line 68 
+[INFO ] 2021-03-14 14:04:39.041 INFO :com.capg.rba.services.BrokerService[removeBroker] Service Triggered at Line 43 
+[INFO ] 2021-03-14 14:10:16.890 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:10:16.933 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 16448 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:10:16.933 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:10:16.934 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:10:18.905 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 2.008 seconds (JVM running for 2106.835) at Line 61 
+[INFO ] 2021-03-14 14:11:58.392 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:11:58.629 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:11:59.112 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 11072 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:11:59.117 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:11:59.118 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:12:06.954 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 8.309 seconds (JVM running for 9.582) at Line 61 
+[INFO ] 2021-03-14 14:12:10.721 INFO :com.capg.rba.controllers.RbaBrokerController[removeBroker] Controller Triggered at Line 68 
+[INFO ] 2021-03-14 14:12:10.721 INFO :com.capg.rba.services.BrokerService[removeBroker] Service Triggered at Line 43 
+[INFO ] 2021-03-14 14:14:19.823 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:14:19.884 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 11072 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:14:19.885 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:14:19.885 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:14:38.122 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:14:38.161 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 11072 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:14:38.161 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:14:38.162 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:16:38.751 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:16:38.783 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 11072 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:16:38.783 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:16:38.783 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:17:04.992 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:17:05.028 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 11072 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:17:05.028 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:17:05.028 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:17:36.351 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:17:36.484 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:17:36.773 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:17:36.776 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:17:36.777 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:17:42.056 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 5.566 seconds (JVM running for 6.35) at Line 61 
+[INFO ] 2021-03-14 14:18:02.334 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:18:02.382 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:18:02.382 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:18:02.383 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:18:04.320 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.981 seconds (JVM running for 28.614) at Line 61 
+[INFO ] 2021-03-14 14:18:09.827 INFO :com.capg.rba.controllers.RbaBrokerController[removeBroker] Controller Triggered at Line 68 
+[INFO ] 2021-03-14 14:18:09.827 INFO :com.capg.rba.services.BrokerService[removeBroker] Service Triggered at Line 43 
+[INFO ] 2021-03-14 14:25:22.245 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:25:22.285 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:25:22.286 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:25:22.286 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:25:24.002 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.753 seconds (JVM running for 468.297) at Line 61 
+[INFO ] 2021-03-14 14:25:51.733 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:25:51.767 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:25:51.767 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:25:51.768 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:25:53.321 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.584 seconds (JVM running for 497.616) at Line 61 
+[INFO ] 2021-03-14 14:31:01.797 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:31:01.834 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:31:01.834 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:31:01.834 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:31:03.460 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.659 seconds (JVM running for 807.755) at Line 61 
+[INFO ] 2021-03-14 14:31:08.990 INFO :com.capg.rba.controllers.RbaBrokerController[removeBroker] Controller Triggered at Line 68 
+[INFO ] 2021-03-14 14:31:08.990 INFO :com.capg.rba.services.BrokerService[removeBroker] Service Triggered at Line 43 
+[INFO ] 2021-03-14 14:31:09.058 INFO :com.capg.rba.controllers.RbaBrokerController[removeBroker] broker details deleted successfully at Line 70 
+[INFO ] 2021-03-14 14:31:59.695 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:31:59.724 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:31:59.725 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:31:59.725 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:32:21.698 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:32:21.727 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:32:21.727 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:32:21.727 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:32:35.611 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:32:35.632 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:32:35.632 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:32:35.633 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:32:38.408 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:32:38.429 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:32:38.430 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:32:38.430 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:32:39.842 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.431 seconds (JVM running for 904.137) at Line 61 
+[INFO ] 2021-03-14 14:36:45.344 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 14:36:45.344 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 14:37:53.145 INFO :com.capg.rba.controllers.RbaBrokerController[editBroker] Controller Triggered at Line 55 
+[INFO ] 2021-03-14 14:37:53.145 INFO :com.capg.rba.services.BrokerService[editBroker] Service Triggered at Line 35 
+[INFO ] 2021-03-14 14:37:57.967 INFO :com.capg.rba.controllers.RbaBrokerController[editBroker] Controller Triggered at Line 55 
+[INFO ] 2021-03-14 14:37:57.967 INFO :com.capg.rba.services.BrokerService[editBroker] Service Triggered at Line 35 
+[INFO ] 2021-03-14 14:37:57.974 INFO :com.capg.rba.controllers.RbaBrokerController[editBroker] broker details updated successfully at Line 59 
+[INFO ] 2021-03-14 14:38:34.582 INFO :com.capg.rba.controllers.RbaBrokerController[listAllBrokers] Controller Triggered at Line 88 
+[INFO ] 2021-03-14 14:38:34.582 INFO :com.capg.rba.services.BrokerService[listAllBrokers] Service Triggered at Line 59 
+[INFO ] 2021-03-14 14:46:46.988 INFO :com.capg.rba.controllers.CustomerController[editCustomer] Controller Triggered at Line 50 
+[INFO ] 2021-03-14 14:46:46.989 INFO :com.capg.rba.services.CustomerService[editCustomer] Service Triggered at Line 41 
+[ERROR] 2021-03-14 14:46:46.997 ERROR :com.capg.rba.repositories.CustomerRepository[updateCustomer] Customer Id 592 is invalid. at Line 57 
+[INFO ] 2021-03-14 14:49:07.893 INFO :com.capg.rba.controllers.RbaBrokerController[listAllBrokers] Controller Triggered at Line 88 
+[INFO ] 2021-03-14 14:49:07.893 INFO :com.capg.rba.services.BrokerService[listAllBrokers] Service Triggered at Line 59 
+[INFO ] 2021-03-14 14:49:17.406 INFO :com.capg.rba.controllers.RbaBrokerController[viewBroker] Controller Triggered at Line 79 
+[INFO ] 2021-03-14 14:49:17.406 INFO :com.capg.rba.services.BrokerService[viewBroker] Service Triggered at Line 51 
+[ERROR] 2021-03-14 14:49:17.408 ERROR :com.capg.rba.repositories.BrokerRepository[fetchBroker] Broker having id 103 does not exist at Line 80 
+[INFO ] 2021-03-14 14:52:05.282 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:52:05.307 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:52:05.307 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:52:05.307 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:52:06.689 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.403 seconds (JVM running for 2070.983) at Line 61 
+[INFO ] 2021-03-14 14:58:48.218 INFO :com.capg.rba.controllers.RbaBrokerController[addBroker] Controller Triggered at Line 42 
+[INFO ] 2021-03-14 14:58:48.219 INFO :com.capg.rba.services.BrokerService[addBroker] Service Triggered at Line 27 
+[INFO ] 2021-03-14 14:59:23.268 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 14:59:23.290 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 14:59:23.290 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 14:59:23.290 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 14:59:24.613 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.342 seconds (JVM running for 2508.908) at Line 61 
+[INFO ] 2021-03-14 15:02:18.818 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 15:02:18.844 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:02:18.844 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:02:18.844 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:02:20.091 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.268 seconds (JVM running for 2684.386) at Line 61 
+[INFO ] 2021-03-14 15:03:13.351 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 15:03:13.376 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:03:13.376 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:03:13.377 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:03:14.605 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.25 seconds (JVM running for 2738.901) at Line 61 
+[ERROR] 2021-03-14 15:03:46.439 ERROR :com.capg.rba.repositories.BrokerRepository[fetchBroker] Broker having id 0 does not exist at Line 80 
+[INFO ] 2021-03-14 15:05:50.507 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 15:05:50.530 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:05:50.531 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:05:50.531 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:05:51.761 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.25 seconds (JVM running for 2896.056) at Line 61 
+[INFO ] 2021-03-14 15:16:38.889 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 15:16:38.919 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:16:38.920 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:16:38.920 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:16:40.144 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.249 seconds (JVM running for 3544.439) at Line 61 
+[INFO ] 2021-03-14 15:17:13.121 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 15:17:13.150 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:17:13.151 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:17:13.151 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:17:14.386 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.26 seconds (JVM running for 3578.681) at Line 61 
+[INFO ] 2021-03-14 15:18:09.732 INFO :com.capg.rba.RealEstateBrokerApplication[main] Real Estate Broker Application Started at Line 15 
+[INFO ] 2021-03-14 15:18:09.758 INFO :org.springframework.boot.StartupInfoLogger[logStarting] Starting RealEstateBrokerApplication using Java 15.0.1 on DESKTOP-4EK3FJ6 with PID 2636 (D:\Capgemini\Project Related Documents\RealEstateBrokerApplication\bin\main started by Aman Thakur in D:\Capgemini\Project Related Documents\RealEstateBrokerApplication) at Line 55 
+[DEBUG] 2021-03-14 15:18:09.758 DEBUG :org.springframework.boot.StartupInfoLogger[logStarting] Running with Spring Boot v2.4.3, Spring v5.3.4 at Line 56 
+[INFO ] 2021-03-14 15:18:09.758 INFO :org.springframework.boot.SpringApplication[logStartupProfileInfo] No active profile set, falling back to default profiles: default at Line 660 
+[INFO ] 2021-03-14 15:18:11.119 INFO :org.springframework.boot.StartupInfoLogger[logStarted] Started RealEstateBrokerApplication in 1.383 seconds (JVM running for 3635.414) at Line 61 

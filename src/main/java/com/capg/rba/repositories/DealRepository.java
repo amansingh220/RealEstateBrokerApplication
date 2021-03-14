@@ -29,8 +29,8 @@ public class DealRepository implements IDealRepository {
 	@Autowired
 	ICustomDealRepository repository;
 
-	@Autowired
-	ICustomerRepository custRepository;
+//	@Autowired
+//	ICustomerRepository custRepository;
 
 	// SaveDeal method insert the deal details in database table
 	@Override

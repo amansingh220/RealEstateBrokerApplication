@@ -58,20 +58,19 @@ public class CustomerController {
 	// End point to remove customer by custId
 	@DeleteMapping(value = "/removecustomer/{custId}")
 	@ApiOperation(value = "Used to remove customer and returns removed customer details")
-	public ResponseEntity<String> removeCustomer(@PathVariable int custId) {
+	public ResponseEntity<Customer> removeCustomer(@PathVariable int custId) {
 		log.info("Controller Triggered");
 		Customer customer1 = customerService.removeCustomer(custId);
-		return new ResponseEntity<String>(
-				"Customer with below listed details deleted successfully" + customer1.toString(""), HttpStatus.OK);
+		return new ResponseEntity<Customer>(customer1, HttpStatus.OK);
 	}
 
 	// End point to view customer by custId
 	@ApiOperation(value = "Used to view customer, returns Customer details")
 	@GetMapping(value = "/viewcustomer/{custId}")
-	public ResponseEntity<String> viewCustomer(@PathVariable int custId) {
+	public ResponseEntity<Customer> viewCustomer(@PathVariable int custId) {
 		log.info("Controller Triggered");
 		Customer customer = customerService.viewCustomer(custId);
-		return new ResponseEntity<String>("Details of customer" + customer.toString(""), HttpStatus.OK);
+		return new ResponseEntity<Customer>(customer, HttpStatus.OK);
 
 	}
 

@@ -1,6 +1,7 @@
 package com.capg.rba.repositories;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -16,20 +17,23 @@ import com.capg.rba.exceptions.PropertyNotFoundException;
 public class PropertyRepository implements IPropertyRepository {
 	@Autowired
 	private IPropertyPropRepository propertyRepository;
+	
+	@Autowired
+	private IBrokerRepository brokerRepository;
 
 	// saveProperty method inserts the property details in to the respective
 	// database table.
 	@Override
 	public Property saveProperty(Property property) {
-		if (property.getConfiguration().equals("flat") && property.getConfiguration().equals("shop")
-				&& property.getConfiguration().equals("plot")) {
+		if (!property.getConfiguration().equals("flat") && !property.getConfiguration().equals("shop")
+				&& !property.getConfiguration().equals("plot")) {
 			throw new InvalidConfigurationException("Configuration can be plot, shop, flat only");
 		}
 
-		if (property.getOfferType().equals("sell") && property.getOfferType().equals("rent")) {
+		if (!property.getOfferType().equals("sell") && !property.getOfferType().equals("rent")) {
 			throw new InvalidConfigurationException("Offer type can be sell and rent only");
 		}
-
+		brokerRepository.updateBroker(property.getBroker());
 		property.setStatus(true);
 		Property propertyDetails = propertyRepository.save(property);
 		return propertyDetails;
@@ -71,11 +75,9 @@ public class PropertyRepository implements IPropertyRepository {
 	// based on the propId.
 	@Override
 	public Property fetchProperty(int propId) {
-		Property propertyDetails = propertyRepository.findById(propId).get();
-		if (propertyDetails == null) {
-			throw new PropertyNotFoundException("Property With " + propId + " Does Not Exist.");
-		}
-		return propertyDetails;
+		Optional<Property> propertyDetails = propertyRepository.findById(propId);
+		Property property = propertyDetails.orElseThrow( () -> new PropertyNotFoundException("Property With " + propId + " Does Not Exist."));
+		return property;
 	}
 
 	// fetchAllProperties gets all property details from respective database table.

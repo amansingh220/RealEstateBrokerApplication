@@ -6,11 +6,11 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.validation.constraints.NotBlank;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import io.swagger.annotations.ApiModel;
@@ -37,15 +37,16 @@ public class Broker extends User {
 
 	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
 	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position = 3)
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
-	@JoinColumn(name = "broUserId")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
+	@JsonIgnore
+//	@JoinColumn(name = "broUserId")
 	private List<Property> properties;
 
 	@Override
 	public String toString() {
-		String message = "\nYour login credentials are as follows : \n" + "\n" + "	userId   : " + getUserId() + "\n"
+		String message = "\nYour login credentials are as follows : \n" + "\n" + "	broId   : " + getUserId() + "\n"
 				+ "	password : " + getPassword() + "\n" + "\n\n" + "The other Broker details are  : \n" + "\n"
-				+ "	custId    : " + getBroId() + "\n" + "	custName  : " + getBroName() + "\n" + "	role      : "
+				+ "	broId    : " + getBroId() + "\n" + "	custName  : " + getBroName() + "\n" + "	role      : "
 				+ getRole() + "\n" + "	mobile    : " + getMobile() + "\n" + "	email     : " + getEmail() + "\n"
 				+ "	city      : " + getCity() + "\n" + "	properties: " + getProperties() + "\n";
 		return message;

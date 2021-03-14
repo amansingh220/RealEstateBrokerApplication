@@ -180,7 +180,7 @@ public class GlobleExceptionHandler {
 	@ExceptionHandler(NoSuchElementException.class)
 	private ResponseEntity<String> handleNoSuchElementException(NoSuchElementException exception) {
 		ResponseEntity<String> responseEntity = new ResponseEntity<String>(
-				"Entered custId or propId does not belongs to any customer or property", HttpStatus.BAD_REQUEST);
+				"Invalid value has been passed", HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
 

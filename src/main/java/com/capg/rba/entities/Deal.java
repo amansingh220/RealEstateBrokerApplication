@@ -32,13 +32,13 @@ public class Deal {
 	private LocalDate dealDate;
 	private double dealCost;
 
-	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
-	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
-	@JoinColumn(name = "custUserId")
-	private Customer customer;
+//	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
+//	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+//	@JoinColumn(name = "custUserId")
+//	private Customer customer;
 
 	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
-	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	@JoinColumn(name = "propId")
 	private Property property;
 
@@ -46,7 +46,7 @@ public class Deal {
 
 		this.dealDate = dealDate;
 		this.dealCost = dealCost;
-		this.customer = customer;
+//		this.customer = customer;
 		this.property = property;
 	}
 

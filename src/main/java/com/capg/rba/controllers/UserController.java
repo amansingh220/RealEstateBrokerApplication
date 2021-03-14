@@ -14,7 +14,7 @@ import com.capg.rba.services.IUserService;
 @RestController
 //mapping an HTTP request to a method using some basic criteria. with end point
 // api
-@RequestMapping(value = "/api")
+@RequestMapping(value = "/rba")
 public class UserController {
 	@Autowired
 	private IUserService loginService;

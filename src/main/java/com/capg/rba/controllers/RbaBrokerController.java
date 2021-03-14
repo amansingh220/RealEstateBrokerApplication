@@ -49,7 +49,7 @@ public class RbaBrokerController {
 				HttpStatus.CREATED);
 	}
 
-	// endpoint for editing broker
+	// end point for editing broker
 	@PutMapping(value = "/editbroker/{broId}")
 	public ResponseEntity<String> editBroker(@RequestBody Broker broker, @PathVariable int broId) {
 		log.info("Controller Triggered");
