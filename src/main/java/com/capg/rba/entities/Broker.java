@@ -11,7 +11,6 @@ import javax.persistence.PrimaryKeyJoinColumn;
 import javax.validation.constraints.NotBlank;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -35,16 +34,15 @@ public class Broker extends User {
 	@ApiModelProperty(notes = "Broker name can not be blank or null", required = true, position = 2)
 	private String broName;
 
-	@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
+
 	@ApiModelProperty(notes = "The value of this feild will not be provideed by any broker", required = false, position = 3)
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "broker", cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.EAGER, mappedBy = "broker", cascade = CascadeType.ALL)
 	@JsonIgnore
-//	@JoinColumn(name = "broUserId")
 	private List<Property> properties;
 
 	@Override
 	public String toString() {
-		String message = "\nYour login credentials are as follows : \n" + "\n" + "	broId   : " + getUserId() + "\n"
+		String message = "\nYour login credentials are as follows : \n" + "\n" + "	userId   : " + getUserId() + "\n"
 				+ "	password : " + getPassword() + "\n" + "\n\n" + "The other Broker details are  : \n" + "\n"
 				+ "	broId    : " + getBroId() + "\n" + "	custName  : " + getBroName() + "\n" + "	role      : "
 				+ getRole() + "\n" + "	mobile    : " + getMobile() + "\n" + "	email     : " + getEmail() + "\n"

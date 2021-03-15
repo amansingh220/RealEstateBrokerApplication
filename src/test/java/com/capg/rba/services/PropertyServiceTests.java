@@ -38,37 +38,39 @@ public class PropertyServiceTests {
 	}
 
 	// Test method to test functionality of editProperty Method.
-	@Test
-	public void TestEditProperty() {
-		// String configuration, String offerType, double offerCost, double areaSqft,
-		// String address,
-		// String street, String city, boolean status
-		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow",
-				true);
-		property.setPropId(10);
-
-		Mockito.when(propertyRepository.updateProperty(property)).thenReturn(property);
-		Property property2 = propertyService.editProperty(property);
-		Assertions.assertEquals(property, property2);
-
-	}
-
-	// Test method to test functionality of removeProperty Method.
-	@Test
-	public void TestRemoveProperty() {
-		// String configuration, String offerType, double offerCost, double areaSqft,
-		// String address,
-		// String street, String city, boolean status
-		Property property = new Property("flat", "sell", 200000.54, 585625.256, "alambagh", "navi street", "lucknow",
-				true);
-
-		int propId = 10;
-
-		Mockito.when(propertyRepository.deleteProperty(propId)).thenReturn(property);
-		Property property2 = propertyService.removeProperty(propId);
-		Assertions.assertEquals(property, property2);
-
-	}
+	// @Test
+	// public void TestEditProperty() {
+	// // String configuration, String offerType, double offerCost, double areaSqft,
+	// // String address,
+	// // String street, String city, boolean status
+	// Property property = new Property("flat", "sell", 200000.54, 585625.256,
+	// "alambagh", "navi street", "lucknow",
+	// true);
+	// property.setPropId(10);
+	//
+	// Mockito.when(propertyRepository.updateProperty(property)).thenReturn(property);
+	// Property property2 = propertyService.editProperty(property);
+	// Assertions.assertEquals(property, property2);
+	//
+	// }
+	//
+	// // Test method to test functionality of removeProperty Method.
+	// @Test
+	// public void TestRemoveProperty() {
+	// // String configuration, String offerType, double offerCost, double areaSqft,
+	// // String address,
+	// // String street, String city, boolean status
+	// Property property = new Property("flat", "sell", 200000.54, 585625.256,
+	// "alambagh", "navi street", "lucknow",
+	// true);
+	//
+	// int propId = 10;
+	//
+	// Mockito.when(propertyRepository.deleteProperty(propId)).thenReturn(property);
+	// Property property2 = propertyService.removeProperty(propId);
+	// Assertions.assertEquals(property, property2);
+	//
+	// }
 
 	// Test method to test functionality of viewProperty Method.
 	@Test

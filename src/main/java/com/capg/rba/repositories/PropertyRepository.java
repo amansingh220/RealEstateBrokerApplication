@@ -74,9 +74,9 @@ public class PropertyRepository implements IPropertyRepository {
 	// fetchProperty method gets property details from respective database table
 	// based on the propId.
 	@Override
-	public Property fetchProperty(int propId) {
-		Optional<Property> propertyDetails = propertyRepository.findById(propId);
-		Property property = propertyDetails.orElseThrow( () -> new PropertyNotFoundException("Property With " + propId + " Does Not Exist."));
+	public Property fetchProperty(int propId14) {
+		Optional<Property> propertyDetails = propertyRepository.findById(propId14);
+		Property property = propertyDetails.orElseThrow( () -> new PropertyNotFoundException("Property With " + propId14 + " Does Not Exist."));
 		return property;
 	}
 

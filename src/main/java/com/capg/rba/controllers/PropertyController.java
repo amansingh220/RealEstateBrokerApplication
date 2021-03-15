@@ -49,6 +49,7 @@ public class PropertyController {
 	@PutMapping(value = "/editproperty/{propId}")
 	public ResponseEntity<Property> editProperty(@RequestBody Property property, @PathVariable int propId) {
 		log.info("Controller Triggered");
+		property.setPropId(propId);
 		Property property1 = propertyService.editProperty(property);
 		return new ResponseEntity<Property>(property1, HttpStatus.ACCEPTED);
 	}

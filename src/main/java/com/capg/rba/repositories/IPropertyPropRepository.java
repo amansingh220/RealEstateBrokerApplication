@@ -12,6 +12,6 @@ public interface IPropertyPropRepository extends JpaRepository<Property, Integer
 	public List<Property> findByConfigurationAndOfferTypeAndCityAndOfferCostBetweenOrderByOfferCostAsc(String config,
 			String offer, String city, double minCost, double maxCost);
 	
-	public Property findByBroker(Broker broker);
+	public List<Property> findByBroker(Broker broker);
 
 }

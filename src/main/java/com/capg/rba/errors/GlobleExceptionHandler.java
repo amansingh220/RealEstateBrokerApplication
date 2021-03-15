@@ -179,8 +179,8 @@ public class GlobleExceptionHandler {
 	// incorrect.
 	@ExceptionHandler(NoSuchElementException.class)
 	private ResponseEntity<String> handleNoSuchElementException(NoSuchElementException exception) {
-		ResponseEntity<String> responseEntity = new ResponseEntity<String>(
-				"Invalid value has been passed", HttpStatus.BAD_REQUEST);
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>("Invalid value has been passed",
+				HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
 
@@ -218,4 +218,13 @@ public class GlobleExceptionHandler {
 				HttpStatus.BAD_REQUEST);
 		return responseEntity;
 	}
+
+	// Handles unexpected inputs from user
+	@ExceptionHandler(NullPointerException.class)
+	private ResponseEntity<String> handleNullPointerException(NullPointerException exception) {
+		ResponseEntity<String> responseEntity = new ResponseEntity<String>("Something went wrong, Try again",
+				HttpStatus.BAD_REQUEST);
+		return responseEntity;
+	}
+
 }

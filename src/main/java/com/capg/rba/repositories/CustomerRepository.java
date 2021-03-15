@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.capg.rba.entities.Customer;
-import com.capg.rba.entities.Deal;
 import com.capg.rba.entities.Property;
 import com.capg.rba.exceptions.CustomerNotFoundException;
 import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
@@ -38,6 +37,7 @@ public class CustomerRepository implements ICustomerRepository {
 		customer.setProperties(properties);
 		customer.setRole("Customer");
 		Customer validateCustomer = customerRepository.findByEmail(customer.getEmail());
+		
 		if (validateCustomer != null) {
 			throw new EmailAlreadyRegisteredException(
 					"Email that you have entered is associated with another user, Use another email");

@@ -1,8 +1,7 @@
 package com.capg.rba.repositories;
 
+import java.util.Iterator;
 import java.util.List;
-
-import javax.transaction.Transactional;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,12 +12,12 @@ import com.capg.rba.entities.Broker;
 import com.capg.rba.entities.Deal;
 import com.capg.rba.entities.Property;
 import com.capg.rba.exceptions.BrokerNotFoundException;
+import com.capg.rba.exceptions.EmailAlreadyRegisteredException;
 import com.capg.rba.exceptions.InvalidBroIdException;
 import com.capg.rba.services.IPropertyService;
 
 //Broker repository class provides implementation to methods declared in IBrokerRepository Interface
 @Repository
-@Transactional
 public class BrokerRepository implements IBrokerRepository {
 	// Logger Initialization
 	private final Logger log = LogManager.getLogger(CustomerRepository.class.getName());
@@ -38,6 +37,12 @@ public class BrokerRepository implements IBrokerRepository {
 	// saveBroker method inserts the broker details in respective database table
 	@Override
 	public Broker saveBroker(Broker bro) {
+		Broker validateCustomer = repository.findByEmail(bro.getEmail());
+		
+		if (validateCustomer != null) {
+			throw new EmailAlreadyRegisteredException(
+					"Email that you have entered is associated with another user, Use another email");
+		}
 		Broker brokerDetails = repository.save(bro);
 		return brokerDetails;
 	}
@@ -55,22 +60,27 @@ public class BrokerRepository implements IBrokerRepository {
 		
 		bro.setUserId(brokerDetails.getUserId());
 		repository.save(bro);
-		return brokerDetails;
+		return null;
 	}
 
 	// deleteBroker method deletes the broker details in respective database table
 	@Override
 	public Broker deleteBroker(int broId) {
 		Broker brokerDetails = fetchBroker(broId);
-		Property property = propertyRepo.findByBroker(brokerDetails);
-		Deal deal = dealRepository.findByProperty(property);
-		if(deal != null) {
-			property.setBroker(null);
-			property.setStatus(false);
-			deal.setProperty(property);
-			dealRepository.save(deal);
-			propService.editProperty(property);
+		Iterator<Property> properties = propertyRepo.findByBroker(brokerDetails).iterator();
+		while(properties.hasNext()) {
+			Property property = properties.next();
+			Deal deal = dealRepository.findByProperty(property);
+			
+			if(deal != null) {
+				property.setBroker(null);
+				property.setStatus(false);
+				deal.setProperty(property);
+				dealRepository.save(deal);
+				propService.editProperty(property);
+			}
 		}
+		
 		repository.deleteById(brokerDetails.getUserId());
 		return brokerDetails;
 	}

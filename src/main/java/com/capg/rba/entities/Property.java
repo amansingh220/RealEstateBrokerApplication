@@ -6,8 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.Min;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Getter;
@@ -30,13 +30,21 @@ public class Property {
 	private String offerType;
 
 	@Min(value = 1, message = "Value of offercost can be minnimun 1")
+	@NotNull(message = "offerCost can't be null")
 	private double offerCost;
 
+	@NotNull(message = "areaSqft can't be null")
 	@Min(value = 1, message = "Value of areaSqft can be minnimun 1")
 	private double areaSqft;
 
+	
+	@NotBlank(message = "address can't be blank")
 	private String address;
+	
+	@NotBlank(message = "street can't be blank")
 	private String street;
+	
+	@NotBlank(message = "city can't be blank")
 	private String city;
 	private boolean status;
 	

@@ -15,4 +15,6 @@ public interface IBrokeRepository extends JpaRepository<Broker, Integer> {
 	// Method to fetch Broker details based on broId from database
 	public Broker findByBroId(int broId);
 
+	// This method will delete broker data based on the email from database.
+	public Broker findByEmail(String email);
 }

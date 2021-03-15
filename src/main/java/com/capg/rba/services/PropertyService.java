@@ -32,9 +32,7 @@ public class PropertyService implements IPropertyService {
 	// removeProperty method removes a property details based on the propId.
 	@Override
 	public Property removeProperty(int propId) {
-		Property propertyDetails = viewProperty(propId);
-		propertyRepository.deleteProperty(propId);
-		return propertyDetails;
+		return propertyRepository.deleteProperty(propId);
 	}
 
 	// viewProperty method views a property details based on the propId.
